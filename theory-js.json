@@ -1,12 +1,12 @@
 {
     "glossary": {
-        "Hoisting":"is doing when you declare a variabe. Then when app is running, the declared variable is hoisted up to the top of file or function",
-        "Literals":"is a specified constant template for define value"
+        "Hoisting":"This is doing when you declare a variable. Then when app is running, the declared variable is hoisted up to the top of file or function",
+        "Literals":"This is a specified constant template for define value"
         },
 
     "ECMAscript-6": {
         "arrow-function": "The arrow function allow us to write shorter function",
-        "let": "\"let\" keyword allow us to define local variable",
+        "let": "The \"let\" keyword allow us to define local variable",
         "const": "The \"const\" keyword allows us to define not changeable value"
     }
 }
