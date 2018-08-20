@@ -1,0 +1,12 @@
+{
+    "name":"Vue.js theory",
+    "description":"Vue is a front-end framework",
+    "directive":[
+        {"v-model":"directive used to define two sided reacted value"},
+        {"v-bind":"directive used to bind values from vue instance data"},
+        {"v-if":"conditional directive, trigger event when assigned value is equal to true"},
+        {"v-for":"directive used to auto rendered lists"}
+    ],
+    "components":"...",
+    "routing":"..."
+}
