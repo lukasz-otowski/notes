@@ -1,0 +1,33 @@
+{
+    title:'words',
+    words:[
+        {eng:"Wrapper",pol:"Osłona, obwoluta"},
+        {eng:"Payload",pol:"Ładunek"},
+        {eng:"Computed",pol:"Obliczony"},
+        {eng:"Dependency",pol:"Zależność, przyległość"},
+        {eng:"instantiate", pol:"utworzyć instancję"},
+        {eng:"collation", pol:"porównanie"},
+        {eng:"Deploy",pol:"Rozwijać, rozlokować"},
+        {eng:"Utility",pol:"Użyteczność, pożytek"},
+        {eng:"Fetch",pol:"Sprowadzać"},
+        {eng:"Staging files",pol:"Przemieszczanie plików"},
+        {eng:"Badges",pol:"Odznaki, znaczki"},
+        {eng:"Case insensitive",pol:"Bez względu na wielkość liter"},
+        {eng:"Vendor directory",pol:"Katalog dostawcy"},
+        {eng:"Credentials",pol:"Kwalifikacje"},
+        {eng:"Approach",pol:"Podejście"},
+        {eng:"Occur",pol:"Pojawić się, występować."},
+        {eng:"Gets rid",pol:"Pozbywa się"},
+        {eng:"Miscue",pol:"Różne"},
+        {eng:"Deliberate",pol:"Obradować, rozważać, zastanawiać się"},
+        {eng:"Even",pol:"Parzysty, nawet, jeszcze, równo, akurat"},
+        {eng:"Odd",pol:"Nieparzysty, dziwny"},
+        {eng:"Instead",pol:"Zamiast"},
+        {eng:"Interchangeable",pol:"wymienny"},
+        {eng:"Therefore",pol:"W związku z tym, zatem, dlatego, a więc"},
+        {eng:"Provided",pol:"Opatrzony"},
+        {eng:"Provides",pol:"dostarczać, zapewniać"},
+        {eng:"Reachout",pol:"Jak dotrzeć do celu"},
+        {eng:"Populate",pol:"zaludniać"}
+     ]
+}

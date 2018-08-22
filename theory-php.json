@@ -1,0 +1,28 @@
+{
+    "router": {
+
+    },
+
+    "terms": {
+        
+        /*"PHP-OOP":{
+            
+        },*/
+        
+        "ORM":{
+            "description": "Object Relational Mapper is a doctrine of backend database architecture. This is a process that change relational data in to objectation data.",
+            "advantages": "include DRY concept, force to write MVC code"
+        
+    },
+        
+    tools:{
+        "composer":{
+            "description":"composer is a dependencies manager"
+        },
+        "php-frontend-cooperation": {
+            "vue": "...",
+            "react": "...",
+            "angular": "..."
+        }
+    }
+}
