@@ -5,7 +5,7 @@
 
     "good-practices": {
         PHP: {
-
+            "namespaces":"use only one line declarations"
         },
         "javascript": {
 
