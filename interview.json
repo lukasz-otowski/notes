@@ -1,11 +1,20 @@
 {
-    "questions":[],
-    
+    "questions": [],
+
     "answers-technique": ["When recruiter ask you about theory, answer him and then add practical example of that theory"],
-    
+
+    "good-practices": {
+        PHP: {
+
+        },
+        "javascript": {
+
+        }
+    },
+
     "don't speak": [],
-    
-    "remember":[
+
+    "remember": [
         "Tools never give suitable value to craftsman. A craftsman gives a value to his tools."
     ]
 }
