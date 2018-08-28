@@ -1,12 +1,14 @@
 <?php //php open tag
+namespace Symfony\Component\HttpFoundation; //first word define a producent, order of namespace should be the same as a directory structure
+use Symfony\Component\HttpFoundation\Response; //key word, inform PHP  which class we want to use 
+use Symfony\Component\HttpFoundation\Response as Res; //make key word alias from used classes, PHP deafult as alias call last word
+use func NameSpaces\ElementName; //import function or constant value named "ElementName"
 $name = value;
 $this-> value;
 var_dump();
 public
 protected
-namespace
 new
-use
 require_once
 explode('sign', value);
 __DIR__ . 

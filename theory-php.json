@@ -2,12 +2,18 @@
     "router": {
 
     },
-
+    
+    "functionality":{
+        "namespaces":"Namespaces is a notation of PHP that allow us to separate one coding environment from other"
+    },
+    
     "terms": {
         
         /*"PHP-OOP":{
             
         },*/
+        
+        "PSR-4":"current standard for autoload",
         
         "ORM":{
             "description": "Object Relational Mapper is a doctrine of backend database architecture. This is a process that change relational data in to objectation data.",
