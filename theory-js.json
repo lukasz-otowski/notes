@@ -9,5 +9,11 @@
         "arrow-function": "The arrow function allow us to write shorter function",
         "let": "The \"let\" keyword allow us to define local variable",
         "const": "The \"const\" keyword allows us to define not changeable value"
-    }
+    },
+    "good-practices": {
+            "muust use":{},
+            "don't-use":[
+                "Global variables",
+            ]
+        }
 }
