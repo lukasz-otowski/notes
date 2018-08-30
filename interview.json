@@ -3,17 +3,6 @@
 
     "answers-technique": ["When recruiter ask you about theory, answer him and then add practical example of that theory"],
 
-    "good-practices": {
-        PHP: {
-            "namespaces":"use only one line declarations"
-        },
-        "javascript": {
-            "don't-use":[
-                "Global variables"
-            ]
-        }
-    },
-
     "don't speak": [],
 
     "remember": [
