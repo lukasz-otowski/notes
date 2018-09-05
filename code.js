@@ -18,3 +18,8 @@ document.doctype;//declaration type
 document.characterSet;//get value of charset type
 4.499.toPrecision(2);//"4.5"
 4.499.toFixed(2);//"4.50"
+//ARRAYS METHODS
+array.length;//number of array items
+array.push("item", "item2");//add new items into array
+array.indexOf(value);//index of item from array
+array.map(method);//use a method on all items of array
