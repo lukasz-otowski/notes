@@ -1,5 +1,9 @@
 {
-    "widget":"Widget is a part of website that allow us to get advanced functionality with website by javascript.",
+    "widget":"Widget is a part of website that allow us to get advanced functionality with website by javascript",
+    "frontend":"one of major part, of websites app software creating, concentrated on that's what user see, and experience",
+    "frontend-developer":"Person who create and/or design website, Frontendist should know HTML, CSS, JS, and should know at least one of top framework, like Vue, React, or Angular",
+    "backend":"one of major part, of websites app software creating, concentrated on creating databases",
+    "backend-developer":"Person who have skills to creating and administrate databases, know wells at least one of backend technologies",
 	"RWD":"Responsive Web Design, a website standard that says, websites should work well in all types of devices",
     "MVC":"Model View Controller is a project pattern used in website creating",
     "CEO":"Chief Executive Officer",
