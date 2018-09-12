@@ -6,8 +6,7 @@ use func NameSpaces\ElementName; //import function or constant value named "Elem
 $name = value;
 $this-> value;
 var_dump();
-public
-protected
+
 new
 require_once
 explode('sign', value);
@@ -22,6 +21,18 @@ var_dump($user->toArray());
 define('BASE_PATH', realpath(__DIR__.'/../../'));
 explode('@', $this->match['target']);
 $router->map('GET', '/', 'App\Controllers\IndexController@show', 'home');
+
+//OOP
+class
+public //public allow variable
+private
+protected
+public function __construct()
+public function do_something()
+public function __destruct()
+$object_name = new class_name()
+$mojobiekt -> zrob_cos()//run function called do_something()
+
 //TOOLS
 //composer
 //brew
