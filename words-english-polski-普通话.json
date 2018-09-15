@@ -3,8 +3,8 @@
     {eng:"Goodbye!",pol:"Do widzenia!",普通话:"Zàijiàn! 再见！"},
     {eng:"Good!",pol:"Dobrze!",普通话:"Hǎo! 好！"},
     {eng:"One",pol:"Jeden",普通话:"Yī 一"},
-    {eng:"",pol:"",普通话:""},
-    {eng:"",pol:"",普通话:""},
-    {eng:"",pol:"",普通话:""},
-    {eng:"",pol:"",普通话:""}
+    {eng:"two",pol:"dwa",普通话:"Èr 二"},
+    {eng:"three",pol:"trzy",普通话:"Sān 三"},
+    {eng:"four",pol:"cztery",普通话:"Sì 四"},
+    {eng:"five",pol:"pięć",普通话:"Wǔ 五"}
 ]
