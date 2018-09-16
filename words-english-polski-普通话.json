@@ -6,5 +6,19 @@
     {eng:"two",pol:"dwa",普通话:"Èr 二"},
     {eng:"three",pol:"trzy",普通话:"Sān 三"},
     {eng:"four",pol:"cztery",普通话:"Sì 四"},
-    {eng:"five",pol:"pięć",普通话:"Wǔ 五"}
+    {eng:"five",pol:"pięć",普通话:"Wǔ 五"},
+    {eng:"six",pol:"sześć",普通话:"Liù 六"},
+    {eng:"seven",pol:"siedem",普通话:"Qī 七"},
+    {eng:"eight",pol:"osiem",普通话:"Bā 八"},
+    {eng:"nine",pol:"dziewięć",普通话:"Jiǔ 九"},
+    {eng:"ten",pol:"dziesięć",普通话:"Shí 十"},
+    {eng:"white",pol:"biały",普通话:"Báisè 白色"},
+    {eng:"black",pol:"czarny",普通话:"Hēisè 黑色"},
+    {eng:"blue",pol:"niebieski",普通话:"Lán sè 蓝色"},
+    {eng:"green",pol:"zielony",普通话:"Lǜsè 绿色"},
+    {eng:"red",pol:"czerwony",普通话:"Hóng 红"},
+    {eng:"",pol:"",普通话:""},
+    {eng:"",pol:"",普通话:""},
+    {eng:"",pol:"",普通话:""},
+    {eng:"",pol:"",普通话:""}
 ]
