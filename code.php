@@ -9,12 +9,17 @@ $name = value;
 $this-> value;
 var_dump();
 filter_var(variable, filter, options)//
-
+PDO::__construct //instance to connect with database
 new
 require_once
 explode('sign', value);
 __DIR__ . 
 map('method', '/', 'path', 'value');
+password_hash($passtxt, PASSWORD_DEFAULT, $options);
+
+//PDO
+PDO::setAttribute//set an attribute
+    
 //DONE CODE LINES
 $this->match = $router->match();
 require_once __DIR__ . '/../app/routing/routes.php';
@@ -28,6 +33,9 @@ $router->map('GET', '/', 'App\Controllers\IndexController@show', 'home');
 $phpsql = $query-.("SELECT * FROM `users`");//performs a query on a database
 DB::query()//performs a query on a database
 if(filter_var($email, FILTER_VALIDATE_EMAIL)){...}//validate email
+$dbconnect = new PDO($addres, $dbuser, $password);//connect with database
+$passhashed = password_hash("rasmuslerdorf", PASSWORD_BCRYPT, $options);//var what containt hashed password
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);//set attribute to throw exception when query is invalid
 
 //OOP
 class
