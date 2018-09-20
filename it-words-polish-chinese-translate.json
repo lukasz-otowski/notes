@@ -10,14 +10,11 @@
         {eng:"Deploy",pol:"Rozwijać, rozlokować", chn:"Bùshǔ 部署"},
         {eng:"Utility",pol:"Użyteczność", chn:"Xiàoyòng 效用"},
         {eng:"Fetch",pol:"Sprowadzać", chn:"Qǔ 取"},
-        {eng:"Staging files",pol:"Przemieszczanie plików"},
-        {eng:"Badges",pol:"Odznaki, znaczki"},
-        {eng:"Case insensitive",pol:"Bez względu na wielkość liter"},
-        {eng:"Vendor directory",pol:"Katalog dostawcy"},
-        {eng:"Credentials",pol:"Kwalifikacje"},
-        {eng:"Approach",pol:"Podejście"},
-        {eng:"Occur",pol:"Pojawić się, występować."},
-        {eng:"Gets rid",pol:"Pozbywa się"},
+        {eng:"Badges",pol:"Odznaki, znaczki", chn:"Huīzhāng 徽章"},
+        {eng:"Credentials",pol:"Kwalifikacje", chn:"Zhèngshū 證書"},
+        {eng:"Approach",pol:"Podejście", chn:"Tújìng 途徑"},
+        {eng:"Occur",pol:"Pojawić się, występować", chn:"Fāshēng 發生"},
+        {eng:"Gets rid",pol:"Pozbywa się", chn:"Bǎituō 擺脫"},
         {eng:"Miscue",pol:"Różne"},
         {eng:"Deliberate",pol:"Obradować, rozważać, zastanawiać się"},
         {eng:"Even",pol:"Parzysty, nawet, jeszcze, równo, akurat"},
@@ -28,6 +25,8 @@
         {eng:"Provided",pol:"Opatrzony"},
         {eng:"Provides",pol:"dostarczać, zapewniać"},
         {eng:"Reachout",pol:"Jak dotrzeć do celu"},
+        {eng:"Vendor directory",pol:"Katalog dostawcy"},
+        {eng:"Case insensitive",pol:"Bez względu na wielkość liter"},
         {eng:"Populate",pol:"zaludniać"}
      ]
 }
