@@ -2,7 +2,9 @@
     "glossary": {
         "Hoisting":"This is doing when you declare a variable. Then when app is running, the declared variable is hoisted up to the top of file or function",
         "Literals":"This is a specified constant template for define value",
-        "use-strict":"\"use strict\" introduced in ES5 to extort writing better and compatibility code "
+        "use-strict":"\"use strict\" introduced in ES5 to extort writing better and compatibility code ",
+        "slug":"slug is a unique identification part of URL address , it is a specific part of URL at the end, or new part of URL created for specific address",
+        "abstraction":"abstraction is a way to minimize complexity and allow optimal design and implementation software. It hide technical raw things in easier APIs."
         },
 
     "ECMAscript-6": {
