@@ -1,6 +1,8 @@
 {
     title:'words',
     words:[
+        {eng:"Computer",pol:"Komputer", chn:"diànnăo 电脑"},
+        {eng:"Internet",pol:"Internet", chn:"wǎng jì 网际"},
         {eng:"Wrapper",pol:"Osłona, obwoluta", chn:"Bāozhuāng zhǐ 包装纸"},
         {eng:"Payload",pol:"Ładunek", chn:"Yǒuxiào zǎihé 有效载荷"},
         {eng:"Computed",pol:"Obliczony", chn:"Jìsuàn 计算"},
