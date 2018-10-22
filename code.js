@@ -26,3 +26,18 @@ array.push("item", "item2");//add new items into array
 array.indexOf(value);//index of item from array
 array.map(method);//use a method on all items of array
 array.forEach(function(element){});//function execution on all element for chosen array
+
+//ES6
+
+
+
+//KEY EVENTS
+//html-> <input type="text" onkeydown="myFunction(event)">
+//Javascript Char Codes (Key Codes) list
+//https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+function myFunction(event) {
+    var x = event.keyCode;
+    if (x == 13) {  // 13 is the Enter key
+        alert ("You pressed the Enter key!");
+    }
+}
