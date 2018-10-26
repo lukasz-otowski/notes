@@ -52,6 +52,9 @@ cognitive_science
 					'nine 九'
 					'ten 十'
 genetics
+	deoxyribonucleic_acid
+		gamet
+			allel
 webdev
 	html
 	css
@@ -209,10 +212,38 @@ webdev
 	firebase
 	php
 python
-	count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
+	file
+		count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
 	import 
 		linecache
 			theline = linecache.getline('themes.py', 7)#read line number 7 from file called 'themes.py'
+		regex
+			identifiers
+				\d	#any number
+				\D	#anything but a number
+				\s	#space
+				\S	#anything but a space
+				\w	#any character
+				\W	#anything but a character
+				.	#any charachter, except for a newline
+				\b	#the whitespace around words
+			modifiers
+				{3,9}	#between 3 and 9
+				[de-g]	#one character of: d, e, f, g
+				{x} #exactly x
+				+	#match 1 or more
+				?	#match 0 or more
+				*	#match 0 or more
+				$	#match the end of a string
+				^	#matching the beginning of a string
+				|	#either or
+			white_space
+				\n	#new line
+				\s	#space
+				\t	#tab
+				\e	#escape
+				\f	#form feed
+				\r	#return
 	django
 git
 	git add the_left_out_file
