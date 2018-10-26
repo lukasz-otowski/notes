@@ -11,6 +11,16 @@ cognitive_science
 							spech
 					parietal_lobe
 					temporal_lobe
+						hippocampus
+							limbic_system
+							memory
+								acquisition
+								storage
+							damage
+								depression
+								stress
+								epilepsy
+								alzheimer
 						superior_temporal_lobe
 							wernickes_area
 								spech
@@ -66,11 +76,11 @@ webdev
 		property_grid
 	javascript
 		data_types
-			var name = 'hey';//string
-			var name = 4;//intiger
-			var name = [1,2,3];//array
-			let name = 'value';//create local variable
-			const name = 'value';//create not changeable value
+			var name = 'hey';#string
+			var name = 4;#intiger
+			var name = [1,2,3];#array
+			let name = 'value';#create local variable
+			const name = 'value';#create not changeable value
 		operators
 			12%5;#remainder operator return an result of rest from two divided number
 		methods
@@ -232,6 +242,18 @@ data_science
 			neural_network
 	statistics
 		linear_regression
+		big_data
+			volume
+			variety
+			velocity
+			value
+			hadoop
+				hdfs
+				yarn
+				hive
+				spark
+				hue
+				luigi
 computer_hardware
 	device
 		motherboard_device
@@ -240,7 +262,7 @@ computer_hardware
 				southbridge
 			data_storage
 				central_processing_unit
-					 microprocessor
+					microprocessor
 				hard_disk_drive
 				solid_state_drive
 				random_access_memory
