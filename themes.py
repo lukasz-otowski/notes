@@ -52,9 +52,17 @@ cognitive_science
 					'nine 九'
 					'ten 十'
 genetics
-	deoxyribonucleic_acid
-		gamet
-			allel
+	Deoxyribonucleotide
+		pentose
+			deoxyribose
+		nucleobase
+			purine
+				adenine
+				guanine
+			pyrimidine
+				cytosine
+				tymine
+		phosphoric_acid_rest
 webdev
 	html
 	css
@@ -88,16 +96,17 @@ webdev
 			12%5;#remainder operator return an result of rest from two divided number
 		methods
 			document
-				document.getElementById('id-name');
-				document.getElementsByClassName('classes names');
-				document.getElementsByTagName('tag-name');
-				document.querySelector('selected-element');
-				document.querySelectorAll('selected-element');
-				document.head;#ethod what contains methods for head, or get value about head tag
-				document.body;#method what contains methods for body, or get value about body tag
-				document.URL;#actual URL address
-				document.doctype;#declaration type
-				document.characterSet;#get value of charset type
+				.getElementById('id-name');
+				.getElementsByClassName('classes names');
+				.getElementsByTagName('tag-name');
+				.querySelector('selected-element');
+				.querySelectorAll('selected-element');
+				.head;#ethod what contains methods for head, or get value about head tag
+				.body;#method what contains methods for body, or get value about body tag
+				.URL;#actual URL address
+				.doctype;#declaration type
+				.characterSet;#get value of charset type
+				.forms["form"]["inp_name"].value;
 			number
 				4.499.toPrecision(2);#4.5
 				4.499.toFixed(2);#4.50
