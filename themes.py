@@ -52,7 +52,7 @@ cognitive_science
 					'nine 九'
 					'ten 十'
 genetics
-	Deoxyribonucleotide
+	deoxyribonucleotide
 		pentose
 			deoxyribose
 		nucleobase
@@ -63,6 +63,67 @@ genetics
 				cytosine
 				tymine
 		phosphoric_acid_rest
+chemistry
+	noble_gas
+		helium
+			He
+		neon
+			Ne
+		argon
+			Ar
+		krypton
+			Kr
+		xenon
+			Xe
+		radon
+			Rn
+	halogen
+		fluorine
+			F
+		chlorine
+			Cl
+		bromine
+			Br
+		iodine
+			I
+		astatine
+			At
+	???chalcogen??????????????must_be_validate
+		oxygen
+			O
+		sulfur
+			S
+		selenium
+			Se
+		tellurium
+			Te
+		polonium
+			Po
+	pnictogen
+		nitrogen
+			N
+		phosphorus
+			P
+		arsenic
+			As
+		antimony
+			Sb
+		bismuth
+			Bi
+	węglowce
+	borowce
+	berylowce
+	litowce
+	tytanowce
+	wanadowce
+	chromowce
+	manganowce
+	żelazo, kobalt, nikiel
+	platynowce
+	miedziowce
+	cynkowce
+	skandowce i lantanowce
+	aktynowce
 webdev
 	html
 	css
