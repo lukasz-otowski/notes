@@ -110,7 +110,7 @@ chemistry
 			Sb
 		bismuth
 			Bi
-	węglowce
+	weglowce
 	borowce
 	berylowce
 	litowce
@@ -118,12 +118,34 @@ chemistry
 	wanadowce
 	chromowce
 	manganowce
-	żelazo, kobalt, nikiel
+	zelazo, kobalt, nikiel
 	platynowce
 	miedziowce
 	cynkowce
 	skandowce i lantanowce
 	aktynowce
+mind
+	imagination
+		fantasia
+	psyche
+		consciousness
+			thought
+			conscience
+				reflections
+			empathy
+				kindness
+					emotion
+				concentration
+					study
+						reading
+						listening
+				sociopathy
+				psychopathy
+		subconscious
+			collective_unconsciousness
+			individual_unconsciousness
+	memory
+		memories
 webdev
 	html
 	css
