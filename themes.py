@@ -110,7 +110,19 @@ chemistry
 			Sb
 		bismuth
 			Bi
-	weglowce
+	carbon_group
+		carbon
+			C
+		silicon
+			Si
+		germanium
+			Ge
+		stannum
+			Sn
+		lead
+			Pb
+		flerovium
+			Fl
 	borowce
 	berylowce
 	litowce
@@ -124,6 +136,20 @@ chemistry
 	cynkowce
 	skandowce i lantanowce
 	aktynowce
+	isomerism
+		constitutional_structural
+			metamerism
+			location_of_the_substituent_(positional)
+				ortho
+				tautomerism
+			backbone
+				multiple_binding_positions
+				catenary
+				ring
+			stereoisomerism (spatial)
+				geometric
+				optical
+				conformational
 mind
 	imagination
 		fantasia
