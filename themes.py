@@ -389,6 +389,7 @@ data_science
 	machine_learning
 		deep_learning
 			neural_network
+				keras
 	statistics
 		linear_regression
 		big_data
@@ -403,6 +404,10 @@ data_science
 				spark
 				hue
 				luigi
+		descriptive_statistics
+		survey_sampling
+		statistical_inference
+		statistical_hypothesis_testing
 computer_hardware
 	device
 		motherboard_device
