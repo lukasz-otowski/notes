@@ -146,10 +146,57 @@ chemistry
 				multiple_binding_positions
 				catenary
 				ring
-			stereoisomerism (spatial)
+			stereoisomerism_(spatial)
 				geometric
 				optical
 				conformational
+human_anatomy
+	head
+		forehead
+		eye
+		nose
+		mouth
+		beard
+	neck
+	body
+		hand
+		torso
+			chest
+			stomach
+		leg
+	skeleton
+		spine
+			cervical_spine
+				c1_atlas
+				c2_axis
+				c3
+				c4
+				c5
+				c6
+				c7
+			thoracic_spine
+				th1
+				th2
+				th3
+				th4
+				th5
+				th6
+				th7
+				th8
+				th9
+				th10
+				th11
+				th12
+			lumbar_spine
+				l1
+				l2
+				l3
+				l4
+				l5
+			sacrum
+				os_sacrum
+			coccyx
+				coccyx
 mind
 	imagination
 		fantasia
@@ -362,7 +409,10 @@ python
 				\e	#escape
 				\f	#form feed
 				\r	#return
+	convert
+		pyinstaller
 	django
+	pep8
 git
 	git add the_left_out_file
 	git commit --amend --no-edit #add new added files to last commit
