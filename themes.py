@@ -165,6 +165,47 @@ human_anatomy
 			stomach
 		leg
 	skeleton
+		head
+			skull
+				frontal_bone
+					frontal_bone
+					the_orbital_part
+					nasal_part
+					frontal_sinus
+				right_and_left_parietal_bone
+				occipital_bone
+					occipital_bone
+					the_basic_part
+					lateral_part
+				temporal_and_left_temporal_bone
+					rocky part_pyramid
+					scaled part_temporal_hull
+					the_cylinder_part
+					part_of_the_nipple
+				wedge_bone
+				sieve_bone
+					vertical_blade
+					sieve_blade
+			craniofacial
+				nasal_bone
+				septum
+					blade
+					vertical_plate_of_the_sieve_bone
+				tear_bone
+				sieve_bone
+				zygoma
+				bone_palate
+				jaw_bone
+					alveolar_process
+				jaw
+					shaft_of_the_mandible
+					branch_of_the_mandible
+					apical_procession
+					appendix
+			ossicles
+				malleus
+				anvil
+				stapes
 		spine
 			cervical_spine
 				c1_atlas
