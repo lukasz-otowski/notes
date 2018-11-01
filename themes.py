@@ -505,9 +505,24 @@ computer_hardware
 			chipset 
 				northbridge
 				southbridge
+			central_processing_unit
+				control_unit
+					ALU_flag
+						O
+						Z
+						N
+				instruction_register
+					fetch_phase
+					decode_phase
+					execute_phase
+					instruction
+						0010_LOAD_A
+						0001_LOAD_B
+						0100_STORE_A
+						1000_ADD
+				arithmetic_logic_unit
+				decode_unit
 			data_storage
-				central_processing_unit
-					microprocessor
 				hard_disk_drive
 				solid_state_drive
 				random_access_memory
