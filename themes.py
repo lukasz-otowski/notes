@@ -287,6 +287,14 @@ mind
 			individual_unconsciousness
 	memory
 		memories
+programming
+    good-practices
+		javascript
+			global_variables#dont use
+	glossary
+        hoisting#This is doing when you declare a variable. Then when app is running, the declared variable is hoisted up to the top of file or function
+        literals#This is a specified constant template for define value
+        abstraction#abstraction is a way to minimize complexity and allow optimal design and implementation software. It hide technical raw things in easier APIs.
 webdev
 	html
 	css
@@ -310,6 +318,12 @@ webdev
 			"flex:number/numbers;"#define grow or shrink of one or more elements in flex container
 		property_grid
 	javascript
+		es5
+			use-strict#"use strict\" introduced in ES5 to extort writing better and compatibility code        
+		es6
+			=>#The arrow function allow us to write shorter function",
+			let#The let keyword allow us to define local variable",
+			const#The "const" keyword allows us to define not changeable value"
 		data_types
 			var name = 'hey';#string
 			var name = 4;#intiger
@@ -444,6 +458,8 @@ webdev
 	vue
 	firebase
 	php
+	glossary
+		slug#slug is a unique identification part of URL address , it is a specific part of URL at the end, or new part of URL created for specific address
 python
 	file
 		count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
