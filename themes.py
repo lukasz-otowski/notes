@@ -496,6 +496,69 @@ python
 	convert
 		pyinstaller
 	django
+		install
+			"pip install django"
+			"cd project_directory"
+			"django-admin startproject project_name"
+		manage.py
+			"python manage.py runserver"
+			"python manage.py startapp articles"
+			"python manage.py makemigrations"
+			"python manage.py migrate"
+			"python manage.py createsuperuser"
+			"python manage.py shell"
+				"from dir_nam.models import Class_nam"
+				"Class_nam.objects.all()"
+				"referVar = Class_nam()"
+				"referVar.title = 'Hello world'"
+				"referVar.save()"
+		urls.py
+			"from django.contrib import admin"
+			"from django.conf.urls import url,include"
+				"urlpatterns"
+					"url(r'^admin/',admin.site.urls),"
+		views.py
+			"from django.shortcuts import render"
+				"return render(request,'dir/file.html',{'articles':articles})"
+			"from .models import Class_nam"
+				"referVar = Class_nam.objects.all().order_by('date')"
+			"from django.http import HttpResponse"
+				"HttpResponse()"
+		settings.py
+			BASE_DIR
+			SECRET_KEY
+			DEBUG
+			ALLOWED_HOSTS
+			INSTALLED_APPS
+			MIDDLEWARE
+			ROOT_URLCONF
+			TEMPLATES
+			WSGI_APPLICATION
+			DATABASES
+			AUTH_PASSWORD_VALIDATORS
+			LANGUAGE_CODE
+			TIME_ZONE
+			USE_I18N
+			USE_L10N
+			USE_TZ
+			STATIC_URL
+			STATICFILES_DIRS
+		models.py
+			"class Name(models.Model):"
+				"field_name = models.TextField()"
+			"def __str__(self):"
+				"return self.title"
+		admin.py
+			"from django.contrib import admin"
+			"from .models import Class_nam"
+				"admin.site.register(Class_nam)"
+		templates
+			html
+				"<ul>"
+					"{% for iter_item in list %}"
+					"<li>{{ content.val }}</li>"
+					"{% endfor %}"
+				"</ul>"
 	pep8
 git
 	git add the_left_out_file
