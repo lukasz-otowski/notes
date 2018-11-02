@@ -123,8 +123,35 @@ chemistry
 			Pb
 		flerovium
 			Fl
-	borowce
-	berylowce
+	boron
+		metalloid
+			boron
+				B
+		metal
+			aluminium
+				Al
+			gallium
+				Ga
+			indium
+				In
+			thallium
+				Tl
+		unknown
+			nihonium
+				Nh
+	alkaline_earth_metal
+		beryllium
+			Be
+		magnesium
+			Mg
+		calcium
+			Ca
+		strontium
+			Sr
+		barium
+			Ba
+		radium
+			Ra
 	litowce
 	tytanowce
 	wanadowce
@@ -464,7 +491,7 @@ graphic
 	red
 	green
 music
-	sounds
+	sound
 data_science
 	algorithm
 		insertion_sort
@@ -499,7 +526,7 @@ data_science
 		survey_sampling
 		statistical_inference
 		statistical_hypothesis_testing
-computer_hardware
+hardware
 	device
 		motherboard_device
 			chipset 
