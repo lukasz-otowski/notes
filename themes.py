@@ -572,6 +572,12 @@ graphic
 music
 	sound
 data_science
+	activity
+		get
+			ready
+				data_lake
+				analyze
+					work
 	algorithm
 		insertion_sort
 		merge_sort
@@ -583,12 +589,24 @@ data_science
 				post_order_traversal#visit left child, then the right child and then the parent;
 			breadth_first_traversal
 				level_order_traversal
+			AVL_tree
 	machine_learning
+		SVM_support_vector_machines
+		NNS_nearest_neighbor_search
 		deep_learning
 			neural_network
 				keras
-	statistics
-		linear_regression
+	analysis
+		research_method
+			deduction
+			induction
+		statistic
+			linear_regression
+			descriptive_statistics
+			survey_sampling
+			statistical_inference
+			statistical_hypothesis_testing
+	data
 		big_data
 			volume
 			variety
@@ -601,10 +619,17 @@ data_science
 				spark
 				hue
 				luigi
-		descriptive_statistics
-		survey_sampling
-		statistical_inference
-		statistical_hypothesis_testing
+	data_type
+		ADT_abstract_data_type
+			stack
+				LIFO
+	application
+		film _recommendations
+		weather_forecasting
+		stock_market_predictions
+		production_process
+		health_diagnosis
+	business_intelligence
 hardware
 	device
 		motherboard_device
