@@ -467,9 +467,19 @@ python
 	file
 		count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
 	import 
-		linecache
+		"import linecache"
 			theline = linecache.getline('themes.py', 7)#read line number 7 from file called 'themes.py'
-		regex
+		"import numpy as np"
+			"a = np.array([[1,2], [3, 4], [5, 6]])"
+			"a = np.zeros((2,2))"
+			"b = np.ones((1,2))"
+			"c = np.full((2,2), 7)"
+			"d = np.eye(2)"
+			"e = np.random.random((2,2))"
+			"a[np.arange(4), b]"
+			"stack = np.tile(v, (4, 1))"
+			"a = np.arange(6).reshape((3, 2))"
+		"import re"
 			identifiers
 				\d	#any number
 				\D	#anything but a number
