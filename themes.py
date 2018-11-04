@@ -4,38 +4,48 @@ cognitive_science
 	artificial_intelligence
 	neurobiology
 		brain
-			cerebrum
-				cerebral_cortex
-					frontal_lobe
-						brocas_area
-							spech
-					parietal_lobe
-					temporal_lobe
-						hippocampus
-							limbic_system
-							memory
-								acquisition
-								storage
-							damage
-								depression
-								stress
-								epilepsy
-								alzheimer
-						superior_temporal_lobe
-							wernickes_area
+			forebrain_prosencephalon
+				cerebrum_telencephalon
+					cerebral_cortex
+						frontal_lobe
+							brocas_area
 								spech
-					occipital_lobe
-			neurons
-				dendrit
-				nucleus
-				soma
-				axon
-				myelin
-					myelin_sheath
-				schwann
-				ranvier_node
-				axon_terminal
-			glial_cells
+						parietal_lobe
+						temporal_lobe
+							hippocampus
+								limbic_system
+								memory
+									acquisition
+									storage
+								damage
+									depression
+									stress
+									epilepsy
+									alzheimer
+							superior_temporal_lobe
+								wernickes_area
+									spech
+						occipital_lobe
+				diencephalon
+					epithalamus
+					thalamus
+					subthalamus
+					metathalamus
+					hypothalamus 
+			midbrain_mesencephalon
+				cerebral_aqueduct 
+			hindbrain_rhombencephalon
+		neurons
+			dendrit
+			nucleus
+			soma
+			axon
+			myelin
+				myelin_sheath
+			schwann
+			ranvier_node
+			axon_terminal
+		glial_cells
 	antropology
 	linguistics
 		chinesse
@@ -265,28 +275,6 @@ human_anatomy
 				os_sacrum
 			coccyx
 				coccyx
-mind
-	imagination
-		fantasia
-	psyche
-		consciousness
-			thought
-			conscience
-				reflections
-			empathy
-				kindness
-					emotion
-				concentration
-					study
-						reading
-						listening
-				sociopathy
-				psychopathy
-		subconscious
-			collective_unconsciousness
-			individual_unconsciousness
-	memory
-		memories
 programming
     good-practices
 		javascript
