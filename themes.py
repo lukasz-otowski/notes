@@ -46,6 +46,21 @@ cognitive_science
 			ranvier_node
 			axon_terminal
 		glial_cells
+			microglial
+			macroglial
+				CNS_central_nervous_system
+					astrocytes
+					oligodendrocytes
+					ependymall_cell
+					radial_glia
+					NG2_polydendrocytes
+				PNS_peripheral_nervous_system
+					schwann_cell_lemocytes
+						myelin
+						non_myelin
+						ends
+					satellite_cell
+					enteric_glial_cell
 	antropology
 	linguistics
 		chinesse
