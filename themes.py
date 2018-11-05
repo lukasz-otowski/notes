@@ -472,7 +472,14 @@ webdev
 				back slash 	220
 				close braket 	221
 				single quote 	222 
-	vue
+		framework
+			vue
+			d3
+				"const canvas = d3.select('.canvas');"
+				"const canvas = d3.selectAll('.canvas');"
+				"const svg = canvas.append('svg');"
+				"svg.attr('height',600).attr('width',600);"
+				"const group = svg.append('g').attr('transform','translate(50,100)')"
 	firebase
 	php
 	glossary
