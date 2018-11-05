@@ -588,8 +588,19 @@ python
 				"</ul>"
 	pep8
 git
-	git add the_left_out_file
-	git commit --amend --no-edit #add new added files to last commit
+	"git add the_left_out_file"
+	"git commit --amend"#edit last commit massege
+	"git commit --amend --no-edit"#add new added files to last commit
+	vim
+		esc#enter to normal mode
+			:q
+			:q!
+			:wq
+			:wq!
+			:x
+			:exit
+			:qa
+			:cq
 graphic
 	white
 	black
