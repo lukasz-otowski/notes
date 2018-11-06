@@ -4,36 +4,62 @@ cognitive_science
 	artificial_intelligence
 	neurobiology
 		brain
-			forebrain_prosencephalon
-				cerebrum_telencephalon
-					cerebral_cortex
-						frontal_lobe
-							brocas_area
-								spech
-						parietal_lobe
-						temporal_lobe
-							hippocampus
-								limbic_system
-								memory
-									acquisition
-									storage
-								damage
-									depression
-									stress
-									epilepsy
-									alzheimer
-							superior_temporal_lobe
-								wernickes_area
+			gray_matter
+				forebrain_prosencephalon
+					cerebrum_telencephalon
+						cerebral_cortex
+							frontal_lobe
+								brocas_area
 									spech
-						occipital_lobe
-				diencephalon
-					epithalamus
-					thalamus
-					subthalamus
-					metathalamus
-					hypothalamus 
+							parietal_lobe
+							temporal_lobe
+								hippocampus
+									limbic_system
+									memory
+										acquisition
+										storage
+									damage
+										depression
+										stress
+										epilepsy
+										alzheimer
+								superior_temporal_lobe
+									wernickes_area
+										spech
+							occipital_lobe
+					diencephalon
+						epithalamus
+						thalamus
+						subthalamus
+						metathalamus
+						hypothalamus 
 			midbrain_mesencephalon
-				cerebral_aqueduct 
+				tectum
+					auditory_reflexes
+				cerebral_aqueduct
+				tegmentum
+					midbrain_tegmentum
+						red_nucleus
+							basic_body_and_limb_movements
+						reticular_formation
+							arousal_and_self-consciousness
+						substantia_nigra
+							voluntary movements
+					pontine_tegmentum
+						midbrain_cranial_nerves
+							3rd_oculomotor
+							4th_trochlear
+						pons_cranial_nerves
+							5th_trigeminal
+							6th_abducens
+							7th_facial
+							8th_vestibulocochlear
+					lateral_tegmental_field
+						noradrenaline_system
+				cerebral_peduncle_basis_pedunculi
+					cranial_nerve
+						3rd_oculomotor
+						4th_trochlear
 			hindbrain_rhombencephalon
 		neurons
 			dendrit
