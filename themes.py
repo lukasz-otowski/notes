@@ -114,6 +114,41 @@ genetics
 				cytosine
 				tymine
 		phosphoric_acid_rest
+disase
+	tumor
+		benign_tumor
+		 	cholangioma 
+			colorectal_polyp
+				hyperplastic
+				neoplastic
+				hamartomatous
+				inflammatory
+			adenoma
+			papilloma
+			cystadenoma
+			liver_cell_adenoma
+			hydatiform_mole
+			renal_tubular_adenoma
+			squamous_cell_papilloma
+			gastric_polyp
+			hemangioma
+			osteoma
+			chondroma
+			lipoma
+			fibroma
+			lymphangioma
+			leiomyoma
+			rhabdomyoma
+			astrocytoma
+			nevus
+			meningioma
+			ganglioneuroma
+		cancer
+			carcinoma
+			sarcoma
+			lymphoma
+			germ_cell_tumor
+			blastoma
 chemistry
 	noble_gas
 		helium
@@ -566,6 +601,7 @@ python
 			"python manage.py makemigrations"
 			"python manage.py migrate"
 			"python manage.py createsuperuser"
+			"python manage.py startapp accounts"#create new accounts app
 			"python manage.py shell"
 				"from dir_nam.models import Class_nam"
 				"Class_nam.objects.all()"
@@ -573,6 +609,8 @@ python
 				"referVar.title = 'Hello world'"
 				"referVar.save()"
 		urls.py
+			"from django.conf.urls import url"
+			"from . import views"
 			"from django.contrib import admin"
 			"from django.conf.urls import url,include"
 				"urlpatterns"
