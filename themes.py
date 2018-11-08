@@ -553,6 +553,9 @@ python
 			theline = linecache.getline('themes.py', 7)#read line number 7 from file called 'themes.py'
 		"import numpy as np"
 			"a = np.array([[1,2], [3, 4], [5, 6]])"
+			"a*2"#multiple all numbers in array separatly
+			"a>4"#check all numbers and log true or false
+			"a.clip(1,7)"#change scope
 			"a = np.zeros((2,2))"
 			"b = np.ones((1,2))"
 			"c = np.full((2,2), 7)"
@@ -560,7 +563,7 @@ python
 			"e = np.random.random((2,2))"
 			"a[np.arange(4), b]"
 			"stack = np.tile(v, (4, 1))"
-			"a = np.arange(6).reshape((3, 2))"
+			"a = np.arange(6).reshape((3, 2))"#create and convert numpy array to multidimensional array
 		"import re"
 			identifiers
 				\d	#any number
