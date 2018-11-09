@@ -76,7 +76,9 @@ cognitive_science
 			macroglial
 				CNS_central_nervous_system
 					astrocytes
+						calcium_brainwave
 					oligodendrocytes
+						myelination
 					ependymall_cell
 					radial_glia
 					NG2_polydendrocytes
@@ -87,6 +89,14 @@ cognitive_science
 						ends
 					satellite_cell
 					enteric_glial_cell
+		neurotransmitter
+			glutamic_acid
+			taurine
+			ATP
+			D-Serine
+			oxytocin
+			dopamine
+			serotonin
 	antropology
 	linguistics
 		chinesse
