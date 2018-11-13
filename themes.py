@@ -786,28 +786,28 @@ data_science
 			neural_network
 				keras
 	analysis
-		"""aksjomat
-			uzyskanie
-				patrzeć w głab danych jako pierwszy
-				pomijać ograniczenia formatu
-				wyliczyć co zostało pominięte
-				zebrać różnorodność
-				nie wszystkie dane są zbierane równoważnie
-			przygotowanie
+		axiom
+			getting
+				to_look_at_data_in_the_first_place
+				omit_format_restrictions
+				calculate_what_has_been_omitted
+				collect_diversity
+				not_all_data_is_collected_equivalently
+			preparation
 				data_lake
-			dzialanie
-				zrozumiane dla niedoświadczonych
-				najważniejsze wzory tendencje wyjątki
-				dokładne zakodowanie danych
-				czytelna logika wykorzystania wyników
-				kompilowalność wsteczna
-				odpowiada na realne biznesowe pytanie"""
+			action
+				understood_for_inexperienced
+				most_important_patterns_tendencies_exceptions
+				accurate_data_encoding
+				clear_logic_of_the_use_of_results
+				backward_compilation
+				it_answer_a_ral_business_question
 		research_method
 			deduction
 			induction
 		statistic
-			"""type_1
-			#korekta bonferroniego"""
+			type_1
+			correction_of_bonferroni
 			linear_regression
 			descriptive_statistics
 			survey_sampling
@@ -819,7 +819,7 @@ data_science
 			variety
 			velocity
 			value
-			hadoop
+			"hadoop"
 				hdfs
 				yarn
 				hive
@@ -837,7 +837,7 @@ data_science
 		production_process
 		health_diagnosis
 	business_intelligence
-	"""#data_types
+	data_types
 		streaming_data
 		batch_data
 		structured_data
@@ -851,41 +851,41 @@ data_science
 		batch_execution
 		parallel_execution
 		serial_execution
-		#dane strumieniowe
-		#dane wsadowe
-		#strukturalne dane
-		#niestrukturalne dane
-	#analytic_classes
-		#analizy transformujące
-		#analizy uczące
-		#analizy predyktywne
-	#learning_models
-		#uczenie z nauczycielem
-		#uczenie bez nauczyciela
-		#uczenie on-line
-		#uczenie off-line
-	#execution_models
-		#wsadowe wykonanie
-		#strumieniowe wykonanie
-		#równoległe wykonanie
-		#seryjne wykonanie"""
-	#MapReduce???
-	"""
-	#klasy modeli analitycznych
+		streaming_data
+		structural_data
+		nostructural_data
+	analytic_classes
+		transforming_analyzes
+		teaching_analyzes
+		predictive_analyzes
+	learning_models
+		learning_with_a_teacher
+		learning_without_a_teacher
+		online_learning
+		offline_training
+	execution_models
+		batch_execution
+		stream_execution
+		parallel_execution
+			"MapReduce"
+		series_production
+	analytical_models_classes
 		transformation
-			agregacja
-			wzbogacanie
-			przetwarzanie
-			standaryzacja
-		metody uczące
-			regresja
-			grupowanie
-			klasyfikacja
-			rekomendacja
-		metody predykcyjne
-			symulacje
-			optymalizacja
-	"""
+			aggregation
+			enrichment
+			processing
+			standardization
+		teaching_methods
+			regression
+			grouping
+			classification
+			recommendation
+		predictive_methods
+			simulations
+			optimization
+	protein_interface
+	robotic_process_automation
+	cognitive_process_automation
 hardware
 	device
 		motherboard_device
