@@ -260,6 +260,23 @@ natural_science
 					conformational
 	biochemistry
 		receptor
+	astronomy
+		brown_dwarf
+		black_hole
+		quasar
+		galaxy
+			planetary_system
+				planet
+					moon
+			star
+		radioastronomy
+		infrared_astronomy
+		optical_astronomy
+		ultraviolet_astronomy
+		x_ray_astronomy
+		gamma_ray_astronomy
+		celestial_mechanics
+		astrometry
 disase
 	tumor
 		benign_tumor
