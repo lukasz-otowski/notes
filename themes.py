@@ -957,3 +957,35 @@ hardware
 				solid_state_drive
 				random_access_memory
 		peripheral_device
+engineering
+	acoustics
+	automation
+	robotics
+	biomedical_engineering
+	security engineering
+	chemical engineering
+	electrical_engineering
+	electronic_engineering_colloquially_electronics
+	energy_engineering
+	genetic_engineering
+	mining_engineering
+	quantum_engineering
+	civil_engineering
+	aviation_engineering_colloquially_aviation
+	material_engineering
+	mechanical_engineering_colloquial_mechanics
+	meteorological_engineering
+	environmental_protection_engineering
+	software_engineering
+	orthopedic_engineering
+	industrial_engineering
+	social_engineering
+	agricultural_engineering
+	system_engineering_or_system_engineering
+	environmental_engineering
+	transport_engineering_or_transport_engineering
+	virtual_design_engineering
+	military_engineering
+	computer_engineering
+	knowledge engineering
+	socio-cognitive_sciences
