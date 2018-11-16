@@ -91,12 +91,24 @@ cognitive_science
 					enteric_glial_cell
 		neurotransmitter
 			glutamic_acid
+				learning
+				memory
+				edema
+				brain_detoxification
+				digestion
+				assimilation_of_proteins_taken_from_food
+				improves_the_excretion_of_harmful_metabolites
+				inhibition_of_insulin_shock
+				nerve_cells_damage
 			taurine
 			ATP
 			D-Serine
 			oxytocin
 			dopamine
 			serotonin
+			adenosine
+				suppresion_of_arousal
+				regulating_sleep
 	antropology
 	linguistics
 		chinesse
@@ -124,6 +136,8 @@ genetics
 				cytosine
 				tymine
 		phosphoric_acid_rest
+biochemistry
+	receptor
 disase
 	tumor
 		benign_tumor
@@ -729,7 +743,11 @@ programming
 						"{% endfor %}"
 					"</ul>"
 		pep8
-    good-practices
+    R
+		text
+			substr("is are supeRR?", start = 13, stop = 13)#[1] "R
+		height <- 200#define variable
+	good-practices
 		javascript
 			global_variables#dont use
 	glossary
@@ -739,9 +757,9 @@ programming
 		abstraction#abstraction is a way to minimize complexity and allow optimal design and implementation software. It hide technical raw things in easier APIs.
 
 	git
-		"git add the_left_out_file"
-		"git commit --amend"#edit last commit massege
-		"git commit --amend --no-edit"#add new added files to last commit
+		git add the_left_out_file
+		git commit --amend#edit last commit massege
+		git commit --amend --no-edit#add new added files to last commit
 		vim
 			esc#enter to normal mode
 				:q
