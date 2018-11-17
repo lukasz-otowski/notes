@@ -71,6 +71,28 @@ cognitive_science
 			schwann
 			ranvier_node
 			axon_terminal
+		synapse
+			electric
+				mitochondrion
+				pre_synaptic_vesicles_with_a_neurotransmitter
+				autoreceptor
+				synaptic_gap
+				neuroreceptor
+				calcium_channel
+				neurotransmitter_releasing_vesicle
+				the_mediator_feedback_receptor
+			chemical
+				termination_of_the_axon
+					bubbles_with_a_neurotransmitter
+					neurotransmitter
+					calcium_channel
+					pump_reuptake
+				synaptic_cleft
+				dendrite
+					neuroreceptor
+					post_synaptic_proteins
+			lpt_long_term_potentation
+			ltd_long_term_depression
 		glial_cells
 			microglial
 				enzymy
