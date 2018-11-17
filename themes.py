@@ -989,3 +989,9 @@ engineering
 	computer_engineering
 	knowledge engineering
 	socio-cognitive_sciences
+cybernetics
+	biocybernetics
+	neurocybernetics
+	molecular_cybernetics
+	cellular_cybernetics
+	evolutionary_cybernetics
