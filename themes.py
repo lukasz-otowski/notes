@@ -985,6 +985,16 @@ hardware
 				solid_state_drive
 				random_access_memory
 		peripheral_device
+		input_output_device
+			monitor
+				crt
+				lcd
+				oled
+					-cathode
+					emission_layer
+					radiation_emission
+					conductive_layer
+					+anode
 engineering
 	acoustics
 	automation
