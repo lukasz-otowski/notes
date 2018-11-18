@@ -288,6 +288,18 @@ natural_science
 					conformational
 	biochemistry
 		receptor
+	physics
+		electricity
+			electric_charge
+			electric_current
+			electric_field
+			electric_potential
+			electromagnets
+			electrochemistry
+			electric_circuits
+			electric_power
+			electronics
+			electromagnetic_wave
 	astronomy
 		brown_dwarf
 		black_hole
