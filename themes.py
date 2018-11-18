@@ -681,6 +681,15 @@ programming
 		glossary
 			slug#slug is a unique identification part of URL address , it is a specific part of URL at the end, or new part of URL created for specific address
 	python
+		basic
+			def name(arg1,arg2):#define function with two argument
+			class Name:#create class
+				def __init__(self, arg1, arg2)#assign arguments
+					self.arg1 = arg1
+					self.arg2 = arg2
+				def function(self, arg1,arg2)#create class function
+					return (arg1 + arg2)
+			ob = Name(1,2)#define instance from class Name
 		file
 			count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
 		import 
@@ -795,8 +804,11 @@ programming
 						"<li>{{ content.val }}</li>"
 						"{% endfor %}"
 					"</ul>"
-		pep8
-    R
+		refactor
+			pep8
+			style_guide
+			pythonisms
+	r
 		text
 			substr("is are supeRR?", start = 13, stop = 13)#[1] "R
 		height <- 200#define variable
@@ -804,11 +816,9 @@ programming
 		javascript
 			global_variables#dont use
 	glossary
-        hoisting#This is doing when you declare a variable. Then when app is running, the declared variable is hoisted up to the top of file or function
-        literals#This is a specified constant template for define value
-        
+		hoisting#This is doing when you declare a variable. Then when app is running, the declared variable is hoisted up to the top of file or function
+		literals#This is a specified constant template for define value
 		abstraction#abstraction is a way to minimize complexity and allow optimal design and implementation software. It hide technical raw things in easier APIs.
-
 	git
 		git add the_left_out_file
 		git commit --amend#edit last commit massege
