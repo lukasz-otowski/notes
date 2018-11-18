@@ -291,11 +291,31 @@ natural_science
 	physics
 		electricity
 			electric_charge
+				lorentz_force
+					F = qE + qv x B
 			electric_current
+				current_intensity
+					ohms_law
+						U=IR
+						I=GU
+				current_density
 			electric_field
+				the_intensity_of_the_electric_field
+				potential_of_the_electric_field
+				electric_field_energy
+				electric_field_strength_lines
 			electric_potential
-			electromagnets
+				volt
+			electromagnet
+				ampere_law
+				magnetic_core
+				magnetic_circuit
+				magnetic_field_created_by_a_current
+				force_exerted_by_magnetic_field
 			electrochemistry
+				electrolyte
+				an_electrochemical_cell
+				mechanisms and kinetics_of_electrode_processes
 			electric_circuits
 			electric_power
 			electronics
