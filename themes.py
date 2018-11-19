@@ -719,6 +719,26 @@ programming
 				def __init__(self, arg1, arg2)#assign arguments
 					self.arg1 = arg1
 					self.arg2 = arg2
+				def __new__(cls):
+				def __del__(self):
+				def __repr__(self):
+				def __str__(self):
+				def __cmp__(self, other):
+				def __index__(self):
+				def __hash__(self):
+				def __getattr__(self, name):
+				def __getattribute__(self, name):
+				def __setattr__(self, name, attr):
+				def __delattr__(self, name):
+				def __call__(self, args, kwargs):
+				def __lt__(self,other):
+				def __le__(self,other):
+				def __gt__(self,other):
+				def __ge__(self,other):
+				def __eq__(self,other):
+				def __ne__(self,other):
+				def __ne__(self,other):
+				def __nonzero__(self):
 				def function(self, arg1,arg2)#create class function
 					return (arg1 + arg2)
 			ob = Name(1,2)#define instance from class Name
