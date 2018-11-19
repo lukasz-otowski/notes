@@ -1075,3 +1075,9 @@ cybernetics
 	molecular_cybernetics
 	cellular_cybernetics
 	evolutionary_cybernetics
+thinking_independent
+	decision
+		always_can_change
+		self_criticism
+	use_various_sources
+	admits_to_commit_mistakes
