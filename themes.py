@@ -526,7 +526,7 @@ human_anatomy
 			coccyx
 				coccyx
 programming
-	term
+	philosophy
 		rule
 			kiss_keep_it_simple_stupid
 			dry_dont_repeat_yourself
