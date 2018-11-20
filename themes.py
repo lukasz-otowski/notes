@@ -549,6 +549,13 @@ programming
 				10_dev_prod_parity
 				11_logs
 				12_admin_processes
+		readable_code
+			avoid_abbreviating_variable_names
+			write_out_your_function_argument_names
+			document_your_classes_and_methods
+			comment_your_code
+			refactor_repeated_lines_of_code_into_reusable_functions_or_methods
+			keep_functions_and_methods_short_a_good_rule_of_thumb_is_that_scrolling_should_not_be_necessary_to_read_an_entire_function_or_method
 	webdev
 		html
 			head
