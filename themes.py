@@ -526,6 +526,29 @@ human_anatomy
 			coccyx
 				coccyx
 programming
+	term
+		rule
+			kiss_keep_it_simple_stupid
+			dry_dont_repeat_yourself
+			solid
+				srp_single_responsibility_principle
+				ocp_open_closed_principle
+				lsp_liskov_substitution_principle
+				isp_interface_segregation_principle
+				dip_dependency_inversion_principle
+			the_twelve_factors
+				1_codebase
+				2_dependencies
+				3_config
+				4_backing_services
+				5_build_release_run
+				6_processes
+				7_port_binding
+				8_concurrency
+				9_disposability
+				10_dev_prod_parity
+				11_logs
+				12_admin_processes
 	webdev
 		html
 			head
@@ -726,149 +749,151 @@ programming
 		glossary
 			slug#slug is a unique identification part of URL address , it is a specific part of URL at the end, or new part of URL created for specific address
 	python
-		basic
-			def name(arg1,arg2):#define function with two argument
-			class Name:#create class
-				def __init__(self, arg1, arg2)#assign arguments
-					self.arg1 = arg1
-					self.arg2 = arg2
-				def __new__(cls):
-				def __del__(self):
-				def __repr__(self):
-				def __str__(self):
-				def __cmp__(self, other):
-				def __index__(self):
-				def __hash__(self):
-				def __getattr__(self, name):
-				def __getattribute__(self, name):
-				def __setattr__(self, name, attr):
-				def __delattr__(self, name):
-				def __call__(self, args, kwargs):
-				def __lt__(self,other):
-				def __le__(self,other):
-				def __gt__(self,other):
-				def __ge__(self,other):
-				def __eq__(self,other):
-				def __ne__(self,other):
-				def __ne__(self,other):
-				def __nonzero__(self):
-				def function(self, arg1,arg2)#create class function
-					return (arg1 + arg2)
-			ob = Name(1,2)#define instance from class Name
-		file
-			count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
-		import 
-			"import linecache"
-				theline = linecache.getline('themes.py', 7)#read line number 7 from file called 'themes.py'
-			"import numpy as np"
-				"a = np.array([[1,2], [3, 4], [5, 6]])"
-				"a*2"#multiple all numbers in array separatly
-				"a>4"#check all numbers and log true or false
-				"a.clip(1,7)"#change scope
-				"a = np.zeros((2,2))"
-				"b = np.ones((1,2))"
-				"c = np.full((2,2), 7)"
-				"d = np.eye(2)"
-				"e = np.random.random((2,2))"
-				"a[np.arange(4), b]"
-				"stack = np.tile(v, (4, 1))"
-				"a = np.arange(6).reshape((3, 2))"#create and convert numpy array to multidimensional array
-			"import re"
-				identifiers
-					\d	#any number
-					\D	#anything but a number
-					\s	#space
-					\S	#anything but a space
-					\w	#any character
-					\W	#anything but a character
-					.	#any charachter, except for a newline
-					\b	#the whitespace around words
-				modifiers
-					{3,9}	#between 3 and 9
-					[de-g]	#one character of: d, e, f, g
-					{x} #exactly x
-					+	#match 1 or more
-					?	#match 0 or more
-					*	#match 0 or more
-					$	#match the end of a string
-					^	#matching the beginning of a string
-					|	#either or
-				white_space
-					\n	#new line
-					\s	#space
-					\t	#tab
-					\e	#escape
-					\f	#form feed
-					\r	#return
-		convert
-			pyinstaller
-		django
-			install
-				"pip install django"
-				"cd project_directory"
-				"django-admin startproject project_name"
-			manage.py
-				"python manage.py runserver"
-				"python manage.py startapp articles"
-				"python manage.py makemigrations"
-				"python manage.py migrate"
-				"python manage.py createsuperuser"
-				"python manage.py startapp accounts"#create new accounts app
-				"python manage.py shell"
-					"from dir_nam.models import Class_nam"
-					"Class_nam.objects.all()"
-					"referVar = Class_nam()"
-					"referVar.title = 'Hello world'"
-					"referVar.save()"
-			urls.py
-				"from django.conf.urls import url"
-				"from . import views"
-				"from django.contrib import admin"
-				"from django.conf.urls import url,include"
-					"urlpatterns"
-						"url(r'^admin/',admin.site.urls),"
-			views.py
-				"from django.shortcuts import render"
-					"return render(request,'dir/file.html',{'articles':articles})"
-				"from .models import Class_nam"
-					"referVar = Class_nam.objects.all().order_by('date')"
-				"from django.http import HttpResponse"
-					"HttpResponse()"
-			settings.py
-				BASE_DIR
-				SECRET_KEY
-				DEBUG
-				ALLOWED_HOSTS
-				INSTALLED_APPS
-				MIDDLEWARE
-				ROOT_URLCONF
-				TEMPLATES
-				WSGI_APPLICATION
-				DATABASES
-				AUTH_PASSWORD_VALIDATORS
-				LANGUAGE_CODE
-				TIME_ZONE
-				USE_I18N
-				USE_L10N
-				USE_TZ
-				STATIC_URL
-				STATICFILES_DIRS
-			models.py
-				"class Name(models.Model):"
-					"field_name = models.TextField()"
-				"def __str__(self):"
-					"return self.title"
-			admin.py
-				"from django.contrib import admin"
-				"from .models import Class_nam"
-					"admin.site.register(Class_nam)"
-			templates
-				html
-					"<ul>"
-						"{% for iter_item in list %}"
-						"<li>{{ content.val }}</li>"
-						"{% endfor %}"
-					"</ul>"
+		syntax
+			basic
+				def name(arg1,arg2):#define function with two argument
+				class Name:#create class
+					def __init__(self, arg1, arg2)#assign arguments
+						self.arg1 = arg1
+						self.arg2 = arg2
+					def __new__(cls):
+					def __del__(self):
+					def __repr__(self):
+					def __str__(self):
+					def __cmp__(self, other):
+					def __index__(self):
+					def __hash__(self):
+					def __getattr__(self, name):
+					def __getattribute__(self, name):
+					def __setattr__(self, name, attr):
+					def __delattr__(self, name):
+					def __call__(self, args, kwargs):
+					def __lt__(self,other):
+					def __le__(self,other):
+					def __gt__(self,other):
+					def __ge__(self,other):
+					def __eq__(self,other):
+					def __ne__(self,other):
+					def __ne__(self,other):
+					def __nonzero__(self):
+					def function(self, arg1,arg2)#create class function
+						return (arg1 + arg2)
+				ob = Name(1,2)#define instance from class Name
+			file
+				count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
+			import 
+				"import linecache"
+					theline = linecache.getline('themes.py', 7)#read line number 7 from file called 'themes.py'
+				"import numpy as np"
+					"a = np.array([[1,2], [3, 4], [5, 6]])"
+					"a*2"#multiple all numbers in array separatly
+					"a>4"#check all numbers and log true or false
+					"a.clip(1,7)"#change scope
+					"a = np.zeros((2,2))"
+					"b = np.ones((1,2))"
+					"c = np.full((2,2), 7)"
+					"d = np.eye(2)"
+					"e = np.random.random((2,2))"
+					"a[np.arange(4), b]"
+					"stack = np.tile(v, (4, 1))"
+					"a = np.arange(6).reshape((3, 2))"#create and convert numpy array to multidimensional array
+				"import re"
+					identifiers
+						\d	#any number
+						\D	#anything but a number
+						\s	#space
+						\S	#anything but a space
+						\w	#any character
+						\W	#anything but a character
+						.	#any charachter, except for a newline
+						\b	#the whitespace around words
+					modifiers
+						{3,9}	#between 3 and 9
+						[de-g]	#one character of: d, e, f, g
+						{x} #exactly x
+						+	#match 1 or more
+						?	#match 0 or more
+						*	#match 0 or more
+						$	#match the end of a string
+						^	#matching the beginning of a string
+						|	#either or
+					white_space
+						\n	#new line
+						\s	#space
+						\t	#tab
+						\e	#escape
+						\f	#form feed
+						\r	#return
+			convert
+				pyinstaller
+		framework
+			django
+				install
+					"pip install django"
+					"cd project_directory"
+					"django-admin startproject project_name"
+				manage.py
+					"python manage.py runserver"
+					"python manage.py startapp articles"
+					"python manage.py makemigrations"
+					"python manage.py migrate"
+					"python manage.py createsuperuser"
+					"python manage.py startapp accounts"#create new accounts app
+					"python manage.py shell"
+						"from dir_nam.models import Class_nam"
+						"Class_nam.objects.all()"
+						"referVar = Class_nam()"
+						"referVar.title = 'Hello world'"
+						"referVar.save()"
+				urls.py
+					"from django.conf.urls import url"
+					"from . import views"
+					"from django.contrib import admin"
+					"from django.conf.urls import url,include"
+						"urlpatterns"
+							"url(r'^admin/',admin.site.urls),"
+				views.py
+					"from django.shortcuts import render"
+						"return render(request,'dir/file.html',{'articles':articles})"
+					"from .models import Class_nam"
+						"referVar = Class_nam.objects.all().order_by('date')"
+					"from django.http import HttpResponse"
+						"HttpResponse()"
+				settings.py
+					BASE_DIR
+					SECRET_KEY
+					DEBUG
+					ALLOWED_HOSTS
+					INSTALLED_APPS
+					MIDDLEWARE
+					ROOT_URLCONF
+					TEMPLATES
+					WSGI_APPLICATION
+					DATABASES
+					AUTH_PASSWORD_VALIDATORS
+					LANGUAGE_CODE
+					TIME_ZONE
+					USE_I18N
+					USE_L10N
+					USE_TZ
+					STATIC_URL
+					STATICFILES_DIRS
+				models.py
+					"class Name(models.Model):"
+						"field_name = models.TextField()"
+					"def __str__(self):"
+						"return self.title"
+				admin.py
+					"from django.contrib import admin"
+					"from .models import Class_nam"
+						"admin.site.register(Class_nam)"
+				templates
+					html
+						"<ul>"
+							"{% for iter_item in list %}"
+							"<li>{{ content.val }}</li>"
+							"{% endfor %}"
+						"</ul>"
 		refactor
 			pep8
 			style_guide
