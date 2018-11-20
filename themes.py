@@ -563,145 +563,158 @@ programming
 				"flex:number/numbers;"#define grow or shrink of one or more elements in flex container
 			property_grid
 		javascript
-			es5
-				use-strict#"use strict\" introduced in ES5 to extort writing better and compatibility code        
-			es6
-				=>#The arrow function allow us to write shorter function",
-				let#The let keyword allow us to define local variable",
-				const#The "const" keyword allows us to define not changeable value"
-			data_types
-				var name = 'hey';#string
-				var name = 4;#intiger
-				var name = [1,2,3];#array
-				let name = 'value';#create local variable
-				const name = 'value';#create not changeable value
-			operators
-				12%5;#remainder operator return an result of rest from two divided number
-			methods
-				document
-					.getElementById('id-name');
-					.getElementsByClassName('classes names');
-					.getElementsByTagName('tag-name');
-					.querySelector('selected-element');
-					.querySelectorAll('selected-element');
-					.head;#ethod what contains methods for head, or get value about head tag
-					.body;#method what contains methods for body, or get value about body tag
-					.URL;#actual URL address
-					.doctype;#declaration type
-					.characterSet;#get value of charset type
-					.forms["form"]["inp_name"].value;
-				number
-					4.499.toPrecision(2);#4.5
-					4.499.toFixed(2);#4.50
-				array
-					array.length;#number of array items
-					array.push("item", "item2");#add new items into array
-					array.indexOf(value);#index of item from array
-					array.map(method);#use a method on all items of array
-					array.forEach(function(element){});#function execution on all element for chosen array
-			keyboard
-				let x = event.keyCode;
-				keycode
-					backspace 	8
-					tab 	9
-					enter 	13
-					shift 	16
-					ctrl 	17
-					alt 	18
-					pause/break 	19
-					caps lock 	20
-					escape 	27
-					page up 	33
-					page down 	34
-					end 	35
-					home 	36
-					left arrow 	37
-					up arrow 	38
-					right arrow 	39
-					down arrow 	40
-					insert 	45
-					delete 	46
-					0 	48
-					1 	49
-					2 	50
-					3 	51
-					4 	52
-					5 	53
-					6 	54
-					7 	55
-					8 	56
-					9 	57
-					a 	65
-					b 	66
-					c 	67
-					d 	68
-					e 	69
-					f 	70
-					g 	71
-					h 	72
-					i 	73
-					j 	74
-					k 	75
-					l 	76
-					m 	77
-					n 	78
-					o 	79
-					p 	80
-					q 	81
-					r 	82
-					s 	83
-					t 	84
-					u 	85
-					v 	86
-					w 	87
-					x 	88
-					y 	89
-					z 	90
-					left window key 	91
-					right window key 	92
-					select key 	93
-					numpad 0 	96
-					numpad 1 	97
-					numpad 2 	98
-					numpad 3 	99
-					numpad 4 	100
-					numpad 5 	101
-					numpad 6 	102
-					numpad 7 	103
-					numpad 8 	104
-					numpad 9 	105
-					multiply 	106
-					add 	107
-					subtract 	109
-					decimal point 	110
-					divide 	111
-					f1 	112
-					f2 	113
-					f3 	114
-					f4 	115
-					f5 	116
-					f6 	117
-					f7 	118
-					f8 	119
-					f9 	120
-					f10 	121
-					f11 	122
-					f12 	123
-					num lock 	144
-					scroll lock 	145
-					semi-colon 	186
-					equal sign 	187
-					comma 	188
-					dash 	189
-					period 	190
-					forward slash 	191
-					grave accent 	192
-					open bracket 	219
-					back slash 	220
-					close braket 	221
-					single quote 	222 
+			syntax
+				es5
+					use-strict#"use strict\" introduced in ES5 to extort writing better and compatibility code        
+				es6
+					=>#The arrow function allow us to write shorter function",
+					let#The let keyword allow us to define local variable",
+					const#The "const" keyword allows us to define not changeable value"
+				data_types
+					var name = 'hey';#string
+					var name = 4;#intiger
+					var name = [1,2,3];#array
+					let name = 'value';#create local variable
+					const name = 'value';#create not changeable value
+				operators
+					12%5;#remainder operator return an result of rest from two divided number
+				methods
+					document
+						.getElementById('id-name');
+						.getElementsByClassName('classes names');
+						.getElementsByTagName('tag-name');
+						.querySelector('selected-element');
+						.querySelectorAll('selected-element');
+						.head;#ethod what contains methods for head, or get value about head tag
+						.body;#method what contains methods for body, or get value about body tag
+						.URL;#actual URL address
+						.doctype;#declaration type
+						.characterSet;#get value of charset type
+						.forms["form"]["inp_name"].value;
+					number
+						4.499.toPrecision(2);#4.5
+						4.499.toFixed(2);#4.50
+					array
+						array.length;#number of array items
+						array.push("item", "item2");#add new items into array
+						array.indexOf(value);#index of item from array
+						array.map(method);#use a method on all items of array
+						array.forEach(function(element){});#function execution on all element for chosen array
+				keyboard
+					let x = event.keyCode;
+					keycode
+						backspace 	8
+						tab 	9
+						enter 	13
+						shift 	16
+						ctrl 	17
+						alt 	18
+						pause/break 	19
+						caps lock 	20
+						escape 	27
+						page up 	33
+						page down 	34
+						end 	35
+						home 	36
+						left arrow 	37
+						up arrow 	38
+						right arrow 	39
+						down arrow 	40
+						insert 	45
+						delete 	46
+						0 	48
+						1 	49
+						2 	50
+						3 	51
+						4 	52
+						5 	53
+						6 	54
+						7 	55
+						8 	56
+						9 	57
+						a 	65
+						b 	66
+						c 	67
+						d 	68
+						e 	69
+						f 	70
+						g 	71
+						h 	72
+						i 	73
+						j 	74
+						k 	75
+						l 	76
+						m 	77
+						n 	78
+						o 	79
+						p 	80
+						q 	81
+						r 	82
+						s 	83
+						t 	84
+						u 	85
+						v 	86
+						w 	87
+						x 	88
+						y 	89
+						z 	90
+						left window key 	91
+						right window key 	92
+						select key 	93
+						numpad 0 	96
+						numpad 1 	97
+						numpad 2 	98
+						numpad 3 	99
+						numpad 4 	100
+						numpad 5 	101
+						numpad 6 	102
+						numpad 7 	103
+						numpad 8 	104
+						numpad 9 	105
+						multiply 	106
+						add 	107
+						subtract 	109
+						decimal point 	110
+						divide 	111
+						f1 	112
+						f2 	113
+						f3 	114
+						f4 	115
+						f5 	116
+						f6 	117
+						f7 	118
+						f8 	119
+						f9 	120
+						f10 	121
+						f11 	122
+						f12 	123
+						num lock 	144
+						scroll lock 	145
+						semi-colon 	186
+						equal sign 	187
+						comma 	188
+						dash 	189
+						period 	190
+						forward slash 	191
+						grave accent 	192
+						open bracket 	219
+						back slash 	220
+						close braket 	221
+						single quote 	222 
 			framework
 				vue
+					syntax
+					ui_component
+						vuetify
+							syntax
+								component
+										v-toolbar
+								component_props
+										dark
+										light
+										height="150"
+										class="indigo"
+								
 				d3
 					"const canvas = d3.select('.canvas');"
 					"const canvas = d3.selectAll('.canvas');"
