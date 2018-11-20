@@ -556,6 +556,11 @@ programming
 			comment_your_code
 			refactor_repeated_lines_of_code_into_reusable_functions_or_methods
 			keep_functions_and_methods_short_a_good_rule_of_thumb_is_that_scrolling_should_not_be_necessary_to_read_an_entire_function_or_method
+		devops_development_and_operations
+			agile_software_development
+			frequent_implementations
+			availability_of_cloud_infrastructure_and_its_virtualization
+			automation_and_configuration_management_tools_in_the_data_center
 	webdev
 		html
 			head
