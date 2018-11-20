@@ -574,12 +574,11 @@ programming
 				'</svg>'
 		css
 			property_flexbox
-				"display:flex;"
+				"display:flex/inline-flex;"#display as flex container
 					"display:-webkit-box;"
 					"display:-moz-box;"
 					"display:-ms-flexbox;"
 					"display:-webkit-flex;"
-				"display:flex/inline-flex;"#display as flex container
 				"flex-direction:row/column;"#set all horizontal/vertical
 				"order:number;"#change order in queue
 				"flex-wrap:wrap/nowrap/wrapreverse;"#wrap lines if over of container
@@ -592,6 +591,9 @@ programming
 				"flex-basis:length;"#width property for flexbox
 				"flex:number/numbers;"#define grow or shrink of one or more elements in flex container
 			property_grid
+			property_font
+				"""@font-face {font-family: KaiTi;src: url(KaiTi.ttf);}
+				body{font-family: KaiTi;}"""
 		javascript
 			syntax
 				es5
