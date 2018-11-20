@@ -596,9 +596,17 @@ programming
 				"flex-basis:length;"#width property for flexbox
 				"flex:number/numbers;"#define grow or shrink of one or more elements in flex container
 			property_grid
+				"""
+				display: grid;
+				grid: 50% 50% / 50% 50%;/*set two rows with two columns of 50% screen width
+				grid-template-columns: 1fr 1fr 1fr;/*directly define colums size*/
+				grid-template-rows: 100px 100px;/*directly define rows size*/
+				"""
 			property_font
-				"""@font-face {font-family: KaiTi;src: url(KaiTi.ttf);}
-				body{font-family: KaiTi;}"""
+				"""
+				@font-face {font-family: KaiTi;src: url(KaiTi.ttf);}
+				body{font-family: KaiTi;}
+				"""
 		javascript
 			syntax
 				es5
