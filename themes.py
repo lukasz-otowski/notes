@@ -896,6 +896,21 @@ programming
 						\r	#return
 			convert
 				pyinstaller
+		modules
+			"help('modules')"#check installed modules
+		pip_installation_modules
+			faker
+				"from faker import Faker"
+					"fake = Faker()"
+					"fake.name()"
+					"fake.address()"
+					"fake.text()"
+				factory
+					"from faker import Factory"
+					"from faker.providers import internet"
+					"fake = Factory.create()"
+					"fake.add_provider(internet)"
+					"print(fake.ipv4_private())"
 		framework
 			django
 				install
