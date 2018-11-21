@@ -1141,6 +1141,11 @@ hardware
 					radiation_emission
 					conductive_layer
 					+anode
+software
+	os
+		windows_10
+			reg
+				HKEY_CLASSES_ROOT\Directory\Background\shell\#context menu key
 engineering
 	acoustics
 	automation
