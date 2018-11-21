@@ -752,14 +752,38 @@ programming
 					ui_component
 						vuetify
 							syntax
-								component
-										v-toolbar
+								component_tag
+										<template>
+											<v-app>
+												<v-content>
+													<v-toolbar></v-toolbar>
+													<router-view></router-view>
+												</v-content>
+											</v-app>
+											</template>
 								component_props
 										dark
 										light
 										height="150"
-										class="indigo"
-								
+										class="indigo lighten-4"#background color
+										class="red--text text--darken-4"#text color
+										class="display-4"#good for <h1>
+										class="display-3"#good for <h2>
+										class="display-2"#good for <h3>
+										class="display-1"#good for <h4>
+										class="headline"#good for <h5>
+										class="title"#good for <h6>
+										class="subheading"#good for supporting text
+										class="body-2"#regular body text with additional weight
+										class="body-1"#regular body tex
+										class="caption"#smaller size text
+										class="font-weight-thin"#sets font-weight to 100
+										class="font-weight-light"#sets font-weight to 300
+										class="font-weight-regular"#sets font-weight to 400
+										class="font-weight-medium"#sets font-weight to 500
+										class="font-weight-bold"#sets font-weight to 700
+										class="font-weight-black"#sets font-weight to 900
+										class="font-italic"#sets the font-style to italic
 				d3
 					"const canvas = d3.select('.canvas');"
 					"const canvas = d3.selectAll('.canvas');"
