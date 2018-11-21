@@ -980,9 +980,24 @@ programming
 							"{% endfor %}"
 						"</ul>"
 		refactor
-			pep8
 			style_guide
-			pythonisms
+				pep8
+					limit_of_text_per_line_is_79
+					import_order
+						standard_library
+						related_third_party
+						local_app_or_library_specific_import
+				django
+					import_order
+						standard_library
+						django_core
+						third_party_app_include_unrelated_to_django
+						you_django_project_part
+					import_type
+						"from core.views import FoodMixin"#absolute import use when importing from outside the current app
+						"from .models import WaffleCone"#explicit relative use when importing from another module in the current app
+						"from models import WaffleCone"#implicit relative often used when importing from another module in the current app this import type is not good practice
+				pythonisms
 	r
 		text
 			substr("is are supeRR?", start = 13, stop = 13)#[1] "R
@@ -1229,3 +1244,4 @@ thinking_independent
 		self_criticism
 	use_various_sources
 	admits_to_commit_mistakes
+	when_it_need_can_broken_self_rule_to_cooperative_work
