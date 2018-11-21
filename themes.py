@@ -774,33 +774,57 @@ programming
 		syntax
 			basic
 				def name(arg1,arg2):#define function with two argument
-				class Name:#create class
-					def __init__(self, arg1, arg2)#assign arguments
-						self.arg1 = arg1
-						self.arg2 = arg2
-					def __new__(cls):
-					def __del__(self):
-					def __repr__(self):
-					def __str__(self):
-					def __cmp__(self, other):
-					def __index__(self):
-					def __hash__(self):
-					def __getattr__(self, name):
-					def __getattribute__(self, name):
-					def __setattr__(self, name, attr):
-					def __delattr__(self, name):
-					def __call__(self, args, kwargs):
-					def __lt__(self,other):
-					def __le__(self,other):
-					def __gt__(self,other):
-					def __ge__(self,other):
-					def __eq__(self,other):
-					def __ne__(self,other):
-					def __ne__(self,other):
-					def __nonzero__(self):
-					def function(self, arg1,arg2)#create class function
-						return (arg1 + arg2)
-				ob = Name(1,2)#define instance from class Name
+				class
+					class Name:#create class
+						def __init__(self, arg1, arg2)#assign arguments
+							self.arg1 = arg1
+							self.arg2 = arg2
+						def __new__(cls):
+						def __del__(self):
+						def __repr__(self):
+						def __str__(self):
+						def __cmp__(self, other):
+						def __index__(self):
+						def __hash__(self):
+						def __getattr__(self, name):
+						def __getattribute__(self, name):
+						def __setattr__(self, name, attr):
+						def __delattr__(self, name):
+						def __call__(self, args, kwargs):
+						def __lt__(self,other):
+						def __le__(self,other):
+						def __gt__(self,other):
+						def __ge__(self,other):
+						def __eq__(self,other):
+						def __ne__(self,other):
+						def __ne__(self,other):
+						def __nonzero__(self):
+						def function(self, arg1,arg2)#create class function
+							return (arg1 + arg2)
+					ob = Name(1,2)#define instance from class Name
+				list
+					listNam = []#define list
+					listNam = list()#define lists
+					listNam[0]#first list element
+					listNam[1:4]#select elements from second to fifth
+					listNam[-1]#last element
+					listNam[3:]#select elements from fourth to the end
+					listNam.insert(2,'val')#insert new value in third place
+					listNam.index('hy')#return first index of 'hy' value
+					listNam.append('ni hao')#append 'ni hao' value at the end of list
+					listNam.count('val')#check quantity of 'value'
+					listNam.pop(2)#remove value in 2 position
+					listNam.sort()#sort list
+					listNam.remove('val')#remove first encountered element of 'val' value
+					len(listNam)#list lenght
+				set
+					setNam = set([1,5,3,5])#set of values non-repeating elements
+					setNam = set('python')#change str to set() object
+				dictionary
+					dicNam = {}#define a dictionary
+					dicNam = dict()#define a dictionary
+					dicNam = {'name':'Tim', 'age':27}#define a dictionary with values
+					dicNam = dict([('name', 'Tim'),('age',27)])#define a dictionary with values
 			file
 				count = len(open('themes.py', 'r').readlines())#get line count of file 'themes.py'
 			import 
