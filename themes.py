@@ -244,6 +244,14 @@ natural_science
 				gga_glycine
 				ggg_glycine
 	chemistry
+		chemical_compound
+			molecules
+			ionic_compounds
+			intermetallic_compounds
+			complexes
+			organic_compound
+			inorganic_compound
+			metal_organic_compound
 		noble_gas
 			helium
 				He
