@@ -172,7 +172,71 @@ natural_science
 						cytosine
 						tymine
 				phosphoric_acid_rest
-			
+			genetic_code
+				uuu_phenylalanine
+				uuc_phenylalanine
+				uua_leucine
+				uug_leucine
+				cuu_leucine
+				cuc_leucine
+				cua_leucine
+				cug_leucine
+				auu_isoleucine
+				auc_isoleucine
+				aua_isoleucine
+				aug_methionine
+				guu_valine
+				guc_valine
+				gua_valine
+				gug_valine
+				ucu_serine
+				ucc_serine
+				uca_serine
+				ucg_serine
+				ccu_proline
+				ccc_proline
+				cca_proline
+				ccg_proline
+				acu_threonine
+				acc_threonine
+				aca_threonine
+				acg_threonine
+				gcu_alanine
+				gcc_alanine
+				gca_alanine
+				gcg_alanine
+				uau_tyrosine
+				uac_tyrosine
+				uaa_ochre_stop
+				uag_amber_stop
+				cau_histidine
+				cac_histidine
+				caa_glutamine
+				cag_glutamine
+				aau_asparagine
+				aac_asparagine
+				aaa_lysine
+				aag_lysine
+				gau_aspartic_acid
+				gac_aspartic_acid
+				gaa_glutamic_acid
+				gag_glutamic_acid
+				ugu_cysteine
+				ugc_cysteine
+				uga_opal_stop
+				ugg_tryptophan
+				cgu_arginine
+				cgc_arginine
+				cga_arginine
+				cgg_arginine
+				agu_serine
+				agc_serine
+				aga_arginine
+				agg_arginine
+				ggu_glycine
+				ggc_glycine
+				gga_glycine
+				ggg_glycine
 	chemistry
 		noble_gas
 			helium
