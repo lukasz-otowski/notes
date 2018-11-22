@@ -857,6 +857,30 @@ programming
 										class="font-weight-bold"#sets font-weight to 700
 										class="font-weight-black"#sets font-weight to 900
 										class="font-italic"#sets the font-style to italic
+								display
+									breakpoints
+										visibility
+											class="hidden-{breakpoint}-{condition}"
+											breakpoint_xs
+											breakpoint_sm
+											breakpoint_md
+											breakpoint_lg
+											breakpoint_xl
+											condition_only
+											condition_and-down
+											condition_and-up
+										overflow
+											class="..."
+											overflow-hidden
+											overflow-y-hidden
+											overflow-x-hidden
+										display
+											class="..."
+											d-inline-flex
+											d-flex
+											d-inline-block
+											d-block
+											d-inline
 				d3
 					"const canvas = d3.select('.canvas');"
 					"const canvas = d3.selectAll('.canvas');"
