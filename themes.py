@@ -172,6 +172,7 @@ natural_science
 						cytosine
 						tymine
 				phosphoric_acid_rest
+			
 	chemistry
 		noble_gas
 			helium
@@ -758,12 +759,20 @@ programming
 												<v-content>
 													<v-toolbar></v-toolbar>
 													<router-view></router-view>
+													<v-icon>email</v-icon>#based on material design
 												</v-content>
 											</v-app>
 											</template>
 								component_props
 										dark
 										light
+										left
+										right
+										small
+										large
+										depressed
+										flat
+										fab
 										height="150"
 										class="indigo lighten-4"#background color
 										class="red--text text--darken-4"#text color
