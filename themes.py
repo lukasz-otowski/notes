@@ -158,6 +158,12 @@ natural_science
 		histology
 			tissue
 				cell
+		molecular_biology
+			analysis
+				genome
+				transcriptome
+				proteome
+				metabolome
 		phylogenetics
 		ontogeny
 		genetics
