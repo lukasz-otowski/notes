@@ -640,6 +640,17 @@ programming
 			frequent_implementations
 			availability_of_cloud_infrastructure_and_its_virtualization
 			automation_and_configuration_management_tools_in_the_data_center
+	environment
+		backend
+			sql_structured_query_language
+				dml_data_manipulation_language
+				ddl_data_definition_language
+				dcl_data_control_language
+				dql_data_query_language
+			ordbms_object_relational_database_management_system
+				mysql
+				postgresql
+				sqlite3
 	webdev
 		html
 			head
@@ -1195,24 +1206,31 @@ data_science
 			survey_sampling
 			statistical_inference
 			statistical_hypothesis_testing
+			unit_of_observation
+				outliers
 	data
 		big_data
 			volume
 			variety
 			velocity
 			value
-			"hadoop"
-				hdfs
-				yarn
-				hive
-				spark
-				hue
-				luigi
 		data_type
 			ADT_abstract_data_type
 				stack
 					LIFO
-	application
+	data_software_platform
+		hadoop
+			hdfs
+			yarn
+			hive
+			spark
+			hue
+			luigi
+		statistica
+		spss
+		sas
+		r
+	application_type
 		film _recommendations
 		weather_forecasting
 		stock_market_predictions
