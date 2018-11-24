@@ -167,6 +167,17 @@ natural_science
 		phylogenetics
 		ontogeny
 		genetics
+			gene
+				allele
+					a_recessive_allele
+					A_dominant_allele
+					aa_recessive_homozygous
+					Aa_heterozygous
+					AA_dominant_homozygous
+					protein_synthesis
+					genotype
+						phenotype
+							organism_trait
 			deoxyribonucleotide
 				pentose
 					deoxyribose
