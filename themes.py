@@ -1081,8 +1081,16 @@ programming
 						\r	#return
 			convert
 				pyinstaller
-		modules
+		module
 			"help('modules')"#check installed modules
+			turtle
+				"t = turtle.Pen()"#create new pen
+				"t.forward(100)"#go forward amoung distance
+				"t.backward(100)"#go backward amoung distance
+				"turtle.penup()"#stop the turtle from drawing
+				"turtle.pendown()"#start drawing
+				"turtle.goto(100, 75)"#send turtle to the coord x/y
+				
 		pip_installation_modules
 			faker
 				"from faker import Faker"
