@@ -559,18 +559,18 @@ disase
 		migration
 		formation_of_cancer_metastases
 human_anatomy
-	head
-		forehead
-		eye
-		nose
-		mouth
-		beard
-	neck
 	body
-		hand
+		head
+			forehead
+			eye
+			nose
+			mouth
+			beard
+		neck
 		torso
 			chest
 			stomach
+		hand
 		leg
 	skeleton
 		head
@@ -646,6 +646,27 @@ human_anatomy
 				os_sacrum
 			coccyx
 				coccyx
+	nerve
+	dish
+	muscle
+		head
+			mimic_muscle
+			mandibular_system_muscle
+			eyeball_muscle
+			tongue_muscle
+		neck
+		ridge
+			superficial_muscles
+				spikes_and_shoulder_muscles
+				spine_rib_shaped_muscles
+			deep_muscles
+				medial_band
+				side_band
+				suboclinic_muscles
+		chest
+		stomach
+		upper_limb
+		lower_limb
 programming
 	philosophy
 		rule
