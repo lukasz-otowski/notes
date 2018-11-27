@@ -434,6 +434,22 @@ science
 			gamma_ray_astronomy
 			celestial_mechanics
 			astrometry
+	humanities
+		linguistics
+			pronoun
+				personal
+				possessive
+		anthropology
+		archeology
+		classics
+		history
+		law
+		politics
+		literature
+		philosophy
+		religion
+		performing_art
+		visual_art
 	math
 		logic
 		algebra
