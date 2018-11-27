@@ -117,7 +117,13 @@ science
 					macroglial
 						CNS_central_nervous_system
 							astrocytes
+								gray_matter
+									protoplasmic
+								white_matter
+									fibrous
 								calcium_brainwave
+								blood_brain_barrier
+								glial_scars
 							oligodendrocytes
 								myelination
 							ependymall_cell
