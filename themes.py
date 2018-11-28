@@ -1,22 +1,3 @@
-cognitive_science
-	philosophy
-	psychology
-	artificial_intelligence
-	antropology
-	linguistics
-		chinesse
-			mandarin
-				numbers
-					'one 一'
-					'two 二'
-					'three 三'
-					'four 四'
-					'five 五'
-					'six 六'
-					'seven 七'
-					'eight 八'
-					'nine 九'
-					'ten 十'
 science
 	natural_science
 		biology
@@ -461,6 +442,12 @@ science
 		religion
 		performing_art
 		visual_art
+	cognitive_science
+		philosophy
+		psychology
+		artificial_intelligence
+		antropology
+		linguistics
 	math
 		logic
 		algebra
@@ -747,6 +734,49 @@ programming
 				mysql
 				postgresql
 				sqlite3
+		frontend
+		package_manager
+			npm
+				'npm'#show help
+				'npm help'#show help
+				'npm init'#create config file
+					"""
+						{
+							"name": "matrix",
+							"version": "1.0.0",
+							"description": "human community container",
+							"main": "index.js",
+							"scripts": {
+							"test": "echo \"Error: no test specified\" && exit 1"
+						},
+							"author": "Thomas Anderson",
+							"license": "ISC"
+						}
+					"""
+					'npm config set init-author-name "Thomas Anderson"'#set author name in config
+					'npm set init-license "MIT"'#set license in config file
+					'npm init --yes'
+						"""
+							{
+								"name": "npm",
+								"version": "1.0.0",
+								"description": "",
+								"main": "index.js",
+								"scripts": {
+								"test": "echo \"Error: no test specified\" && exit 1"
+							},
+								"author": "",
+								"license": "ISC"
+							}
+						"""
+					'npm get init-author-name'
+					'npm config get author-name'
+					'npm config delete init license'
+				'npm install name'#install package 'name'
+				'npm i name'#install package 'name' i is alias for install
+				'npm -v'#check version
+				'npm --version'#check version
+				'npm install lodash'#install dependencies
 	webdev
 		html
 			head
