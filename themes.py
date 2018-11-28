@@ -1135,7 +1135,7 @@ programming
 				"turtle.pendown()"#start drawing
 				"turtle.goto(100, 75)"#send turtle to the coord x/y
 			xml
-		pip_installation_modules
+		pip_install_module
 			faker
 				"from faker import Faker"
 					"fake = Faker()"
@@ -1148,6 +1148,10 @@ programming
 					"fake = Factory.create()"
 					"fake.add_provider(internet)"
 					"print(fake.ipv4_private())"
+			virtualenv
+				virtualenvwrapper_virtualenvwrapper-win
+					'workon project_name'
+				
 		framework
 			django
 				install
