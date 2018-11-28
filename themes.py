@@ -1281,9 +1281,26 @@ programming
 		literals#This is a specified constant template for define value
 		abstraction#abstraction is a way to minimize complexity and allow optimal design and implementation software. It hide technical raw things in easier APIs.
 	git
-		git add the_left_out_file
-		git commit --amend#edit last commit massege
-		git commit --amend --no-edit#add new added files to last commit
+		'git init'#initialize git repository
+		'git config'#show config options
+			'git config --global'#change global config
+			'git config --local'#change local config
+			'git config --system'#change system config for all users
+			'git config --list'#show current config
+		'git status'#show 
+		'git diff'#check repo changes
+		'git add file_nam'#add file_nam to index
+			'git add .'#add all files to index
+		'git commit'#confirm repository changes
+			'git commit -m "description of changes"'#confirm changes with additional description message
+			'git commit --amend'#edit last commit massege
+			'git commit --amend --no-edit'#add new added files to last commit
+		'git push'#send commits repo hosting
+			'git push origin master'#send commits from origin branch to repo hosting
+		'git branch'#lists all local branches in the current repo
+			'git branch br_nam'#create branch br_nam
+			'git checkout br_nam'#switch to branch br_nam
+			'git branch -d br_nam'#delete branch br_nam
 		vim
 			esc#enter to normal mode
 				:q
