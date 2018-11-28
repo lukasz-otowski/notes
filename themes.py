@@ -1116,6 +1116,17 @@ programming
 				pyinstaller
 		module
 			"help('modules')"#check installed modules
+			argparse
+			datetime
+			json
+			math
+			unittest
+			re
+			random
+			statistics
+			sys
+			time
+			tkinter
 			turtle
 				"t = turtle.Pen()"#create new pen
 				"t.forward(100)"#go forward amoung distance
@@ -1123,7 +1134,7 @@ programming
 				"turtle.penup()"#stop the turtle from drawing
 				"turtle.pendown()"#start drawing
 				"turtle.goto(100, 75)"#send turtle to the coord x/y
-				
+			xml
 		pip_installation_modules
 			faker
 				"from faker import Faker"
