@@ -962,86 +962,97 @@ programming
 						back slash 	220
 						close braket 	221
 						single quote 	222 
-			framework
-				vue
-					syntax
-					ui_component
-						vuetify
-							syntax
-								component_tag
-										<template>
-											<v-app>
-												<v-content>
-													<v-toolbar></v-toolbar>
-													<router-view></router-view>
-													<v-icon>email</v-icon>#based on material design
-												</v-content>
-											</v-app>
-											</template>
-								component_props
-										dark
-										light
-										left
-										right
-										small
-										large
-										depressed
-										flat
-										fab
-										height="150"
-										class="indigo lighten-4"#background color
-										class="red--text text--darken-4"#text color
-										class="display-4"#good for <h1>
-										class="display-3"#good for <h2>
-										class="display-2"#good for <h3>
-										class="display-1"#good for <h4>
-										class="headline"#good for <h5>
-										class="title"#good for <h6>
-										class="subheading"#good for supporting text
-										class="body-2"#regular body text with additional weight
-										class="body-1"#regular body tex
-										class="caption"#smaller size text
-										class="font-weight-thin"#sets font-weight to 100
-										class="font-weight-light"#sets font-weight to 300
-										class="font-weight-regular"#sets font-weight to 400
-										class="font-weight-medium"#sets font-weight to 500
-										class="font-weight-bold"#sets font-weight to 700
-										class="font-weight-black"#sets font-weight to 900
-										class="font-italic"#sets the font-style to italic
-								display
-									breakpoints
-										visibility
-											class="hidden-{breakpoint}-{condition}"
-											breakpoint_xs
-											breakpoint_sm
-											breakpoint_md
-											breakpoint_lg
-											breakpoint_xl
-											condition_only
-											condition_and-down
-											condition_and-up
-										overflow
-											class="..."
-											overflow-hidden
-											overflow-y-hidden
-											overflow-x-hidden
-										display
-											class="..."
-											d-inline-flex
-											d-flex
-											d-inline-block
-											d-block
-											d-inline
-				d3
-					"const canvas = d3.select('.canvas');"
-					"const canvas = d3.selectAll('.canvas');"
-					"const svg = canvas.append('svg');"
-					"svg.attr('height',600).attr('width',600);"
-					"const group = svg.append('g').attr('transform','translate(50,100)')"
 		firebase
 		php
 		glossary
 			slug#slug is a unique identification part of URL address , it is a specific part of URL at the end, or new part of URL created for specific address
+		framework
+			bootstrap
+				'<div class="container">'#all bootstrap features work only in "container" or "container-fluid" class
+				'<div class="container-fluid">'#all bootstrap features work only in "container" or "container-fluid" class
+				'<div class="row">'#container for columns
+				breakpoint
+					'<div class="col">'#extra small <576px auto adjust
+					'<div class="col-sm">'#small ≥576px
+					'<div class="col-md">'#medium ≥768px
+					'<div class="col-lg">'#large ≥992px
+					'<div class="col-xl">'#extra large ≥1200px
+			vue
+				syntax
+				ui_component
+					vuetify
+						syntax
+							component_tag
+									<template>
+										<v-app>
+											<v-content>
+												<v-toolbar></v-toolbar>
+												<router-view></router-view>
+												<v-icon>email</v-icon>#based on material design
+											</v-content>
+										</v-app>
+										</template>
+							component_props
+									dark
+									light
+									left
+									right
+									small
+									large
+									depressed
+									flat
+									fab
+									height="150"
+									class="indigo lighten-4"#background color
+									class="red--text text--darken-4"#text color
+									class="display-4"#good for <h1>
+									class="display-3"#good for <h2>
+									class="display-2"#good for <h3>
+									class="display-1"#good for <h4>
+									class="headline"#good for <h5>
+									class="title"#good for <h6>
+									class="subheading"#good for supporting text
+									class="body-2"#regular body text with additional weight
+									class="body-1"#regular body tex
+									class="caption"#smaller size text
+									class="font-weight-thin"#sets font-weight to 100
+									class="font-weight-light"#sets font-weight to 300
+									class="font-weight-regular"#sets font-weight to 400
+									class="font-weight-medium"#sets font-weight to 500
+									class="font-weight-bold"#sets font-weight to 700
+									class="font-weight-black"#sets font-weight to 900
+									class="font-italic"#sets the font-style to italic
+							display
+								breakpoints
+									visibility
+										class="hidden-{breakpoint}-{condition}"
+										breakpoint_xs
+										breakpoint_sm
+										breakpoint_md
+										breakpoint_lg
+										breakpoint_xl
+										condition_only
+										condition_and-down
+										condition_and-up
+									overflow
+										class="..."
+										overflow-hidden
+										overflow-y-hidden
+										overflow-x-hidden
+									display
+										class="..."
+										d-inline-flex
+										d-flex
+										d-inline-block
+										d-block
+										d-inline
+			d3
+				"const canvas = d3.select('.canvas');"
+				"const canvas = d3.selectAll('.canvas');"
+				"const svg = canvas.append('svg');"
+				"svg.attr('height',600).attr('width',600);"
+				"const group = svg.append('g').attr('transform','translate(50,100)')"
+		
 	python
 		syntax
 			basic
