@@ -162,6 +162,17 @@ science
 					electrophysiology
 						eeg_electroencephalography
 					comparative
+				neuroimaging
+					cat_computed_axial_tomography
+					dot_diffuse_optical_tomography
+					eros_event_related_optical_signal
+					mri_structural_magnetic_resonance_imaging
+					fmri_functional_magnetic_resonance_imaging
+					meg_magnetoencephalography
+					pet_positron_emission_tomography
+					spect_single_photon_emission_computed_tomography
+					dti_diffusion_tensor_imaging
+					
 			histology
 				tissue
 					cell
@@ -434,7 +445,7 @@ science
 			gamma_ray_astronomy
 			celestial_mechanics
 			astrometry
-	humanities
+	humanities_science
 		linguistics
 			pronoun
 				personal
