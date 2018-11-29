@@ -1520,9 +1520,62 @@ hardware
 					+anode
 software
 	os
-		windows_10
-			reg
-				HKEY_CLASSES_ROOT\Directory\Background\shell\#context menu key
+		microsoft
+			1.0
+			2.0
+			3.0
+			os/2
+			windows_nt3.1
+			windows_95
+			windows_nt4.0
+			windows_98
+			windows_2000
+			windows_millenium
+			windows_xp
+			windows_vista
+			windows_7
+			windows_8
+			windows_10
+				reg
+					'HKEY_CLASSES_ROOT\Directory\Background\shell\ '#context menu key
+				'gm.{ED7BA470-8E54-465E-825C-99712043E01C}'#god mode
+				console
+					'bootcfg'#configure BOOT.INI file
+					'cd dir_nam'#go to dir_nam directory
+					'cd..'#move file up
+					'cd/'#go to root directory`
+					'cls'#clear console
+					'getmac'#show mac stat
+					'ipconfig'#show network stat
+					'ping google.com'#check network google.com status
+					'md dir_nam'#create dir_nam directory
+					'netstat'#list of current network connections
+					'rmdir dir_nam'#remove empty directory
+					'systeminfo'#show info about os
+					'tracert google.com'#check network path to google.com
+		macos
+		linux
+			core
+				monolitic
+				directory
+					/dev
+					/proc
+					/etc
+					/sbin
+					/bin
+					/lib
+					/mnt
+					/usr
+					/var
+					/home
+					/tmp
+				module
+				library
+			ubuntu
+			debian
+			mint
+	console
+		cmder
 engineering
 	acoustics
 	automation
