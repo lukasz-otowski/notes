@@ -1298,11 +1298,11 @@ programming
 			'git config --local'#change local config
 			'git config --system'#change system config for all users
 			'git config --list'#show current config
-		'git status'#show 
+		'git status'#show index status
 		'git diff'#check repo changes
 		'git add file_nam'#add file_nam to index
 			'git add .'#add all files to index
-		'git commit'#confirm repository changes
+		'git commit'#run text editor and confirm repository changes
 			'git commit -m "description of changes"'#confirm changes with additional description message
 			'git commit --amend'#edit last commit massege
 			'git commit --amend --no-edit'#add new added files to last commit
@@ -1310,8 +1310,25 @@ programming
 			'git push origin master'#send commits from origin branch to repo hosting
 		'git branch'#lists all local branches in the current repo
 			'git branch br_nam'#create branch br_nam
-			'git checkout br_nam'#switch to branch br_nam
 			'git branch -d br_nam'#delete branch br_nam
+		'git checkout'#
+			'git checkout br_nam'#switch to branch br_nam
+			'git checkout -b new_br'#create and switch to branch new_br 
+			'git checkout index.html'#revert changes to file index.html
+			'git checkout -- index.html'#remove changes form file index.html
+		'git log'#show commit detail history
+			'git log --oneline'#show short commit history
+		'git reset'#remove files from staging area
+		'git rm index.html'#remove file from working directory, can be revert
+		'git mv index.html'#move file
+		'git clean'#delete files that are not added to index
+			'git clean -n'#show the files you can delete
+			'git clean -d'#show the files you can delete with directories
+			'git clean -f'#use interactive console
+		'git rebase'#commit moving tool
+			'git rebase -i'#interactive console
+			'git rebase master'#move current commits into master branch
+			'git rebase -i 9e4bbd2'#join chosen commits into one commit
 		vim
 			esc#enter to normal mode
 				:q
