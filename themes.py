@@ -1580,6 +1580,26 @@ software
 			mint
 	console
 		cmder
+electronics
+	components
+		resistor_dimmer
+		capacitor
+		inductor_coil
+		breadband
+		integrated_circut
+			processor
+			microcontroller
+			cmos_complementary_metal_oxide_semiconductor
+	tool
+		voltage_tester
+		insulation_puller
+		electric_box_for_concealed_installation
+			plug
+		electrical_connector
+			movable_clamp
+			spring_clamp
+		electric_installation_connector
+		electric_cube
 engineering
 	acoustics
 	automation
