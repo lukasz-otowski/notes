@@ -113,6 +113,10 @@ science
 						PNS_peripheral_nervous_system
 							schwann_cell_lemocytes
 								myelin
+									myelination
+										from_the_back_of_the_cerebral_cortex_to_the_forebrain
+										from_born_to_21_year_old
+										electrical_insulator_for_axon
 								non_myelin
 								ends
 							satellite_cell
