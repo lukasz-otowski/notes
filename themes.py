@@ -413,6 +413,71 @@ science
 				electric_power
 				electronics
 				electromagnetic_wave
+		geography
+			continent
+				africa
+				asia
+				europe
+				america
+					north
+					south
+				antarctica
+				australia_oceania
+			political
+				africa
+				asia
+					china
+						province
+							anhui
+							fujian
+							gansu
+							guangdong
+							guizhou
+							hainan
+							hebei
+							heilongjiang
+							henan
+							hubei
+							hunan
+							jiangsu
+							jiangxi
+							jilin
+							liaoning
+							qinghai
+							shaanxi
+							shandong
+							shanxi
+							sichuan
+							yunnan
+							zhejiang
+						claimed_province
+							taiwan
+						autonomous_regions
+							guangxi
+							inner_mongolia
+							ningxia
+							xinjiang
+							tibet
+						municipalities
+							beijing
+							chongqing
+							shanqhai
+							tianjin
+						special_administrative_regions
+							hong_kong
+							macau
+					japan
+				europe
+					poland
+					denmark
+						greenland
+				eurasia
+					russia
+				america
+					north
+					south
+				antarctica
+				australia_oceania
 		astronomy
 			brown_dwarf
 			black_hole
