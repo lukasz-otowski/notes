@@ -480,13 +480,25 @@ science
 				australia_oceania
 		astronomy
 			brown_dwarf
-			black_hole
 			quasar
 			galaxy
 				planetary_system
 					planet
 						moon
 				star
+					compact_star
+						white_dwarfs
+						neutron_star
+							density_~8_10_sun_density
+							mass_1.1_3_sun_masses
+							temperature_10^11_10^12_kelvin
+							structure
+								atmosphere
+								outer_shell
+								inner_shell
+								external_core
+								internal_core
+					black_hole
 			radioastronomy
 			infrared_astronomy
 			optical_astronomy
