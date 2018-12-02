@@ -1682,6 +1682,15 @@ engineering
 	aviation_engineering_colloquially_aviation
 	material_engineering
 	mechanical_engineering_colloquial_mechanics
+		technical_drawing
+		theory_of_mechanisms_and_machines
+		materials_science
+		strength_of_materials
+		mechanics_of_structure_and_solids
+		machine_construction_basics
+		science_of_mechanics
+		machine_construction_technology
+		precision_mechanics
 	meteorological_engineering
 	environmental_protection_engineering
 	software_engineering
