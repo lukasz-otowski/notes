@@ -1,4 +1,4 @@
-science
+exact_science
 	natural_science
 		biology
 			neurobiology
@@ -507,6 +507,70 @@ science
 			gamma_ray_astronomy
 			celestial_mechanics
 			astrometry
+	math_science
+		math
+			symbol
+				basic
+					+_plus
+					-_minus
+					±_plus_minus
+					x_⋅_multiplication
+					:_/_division
+					√_square_root
+					Σ_summation
+					∫_integral
+					…_ellipsis
+					∴_therefore_sign
+					∵_because
+					!_exclamation_mark
+					¬_negation
+					∝_proportionality
+					∞_infinity
+					∎_end_of_proof
+				logic
+					∧_and_conjuction
+					∨_or_disjunction
+					⇒_if
+					⇔_equivalence
+				numeric_set
+					N_natural_number
+					Z_integer_number
+					Q_rational_number
+					R\Q_irrational_number
+					R_real_number
+				set
+					∈_assign_to_set
+					U_sum_of_sets
+					∩_common_part
+			logic
+			algebra
+				'x+y'
+				'x-y'
+				'x:y'
+				'2x'
+				'3x'
+				'0,5x'
+				'x-12'
+				'x^2'
+				'x^2+y^2'
+				'(x+y)^2'
+				'x^3+y^3'
+				'(2x)^2-0,5y^3'
+			analysis
+			geometry
+			discrete_mathematics
+			statistics
+				parametric_equation
+					hypotrochoid
+					epitrochoid
+			theory_of_probability
+			applied_mathematics
+				systems_theory
+					system_dynamics
+					systems_biology
+					systems_ecology
+					systems_engineering
+					systems_psychology
 	humanities_science
 		linguistics
 			pronoun
@@ -529,36 +593,7 @@ science
 		artificial_intelligence
 		antropology
 		linguistics
-	math
-		logic
-		algebra
-			'x+y'
-			'x-y'
-			'x:y'
-			'2x'
-			'3x'
-			'0,5x'
-			'x-12'
-			'x^2'
-			'x^2+y^2'
-			'(x+y)^2'
-			'x^3+y^3'
-			'(2x)^2-0,5y^3'
-		analysis
-		geometry
-		discrete_mathematics
-		statistics
-			parametric_equation
-				hypotrochoid
-				epitrochoid
-		theory_of_probability
-		applied_mathematics
-			systems_theory
-				system_dynamics
-				systems_biology
-				systems_ecology
-				systems_engineering
-				systems_psychology
+	
 disase
 	tumor
 		benign_tumor
