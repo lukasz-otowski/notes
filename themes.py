@@ -1,4 +1,4 @@
-exact_science
+science
 	natural_science
 		biology
 			neurobiology
@@ -571,6 +571,19 @@ exact_science
 					systems_ecology
 					systems_engineering
 					systems_psychology
+	social_science
+		anthropology
+		communication_studies
+		economics
+			cryptocurrency
+		education
+		geography
+		history
+		law
+		linguistics
+		political
+		psychology
+		sociology
 	humanities_science
 		linguistics
 			pronoun
