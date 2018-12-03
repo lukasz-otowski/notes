@@ -1243,18 +1243,27 @@ programming
 				"import linecache"
 					theline = linecache.getline('themes.py', 7)#read line number 7 from file called 'themes.py'
 				"import numpy as np"
-					"a = np.array([[1,2], [3, 4], [5, 6]])"
+					"a = np.array([[1,2], [3, 4], [5, 6]], dtype=float)"#create numpy array with predefined type of numbers
+					"a = np.arange(15)"#create array with numbersfrom 0 to 14
 					"a*2"#multiple all numbers in array separatly
 					"a>4"#check all numbers and log true or false
 					"a.clip(1,7)"#change scope
-					"a = np.zeros((2,2))"
-					"b = np.ones((1,2))"
-					"c = np.full((2,2), 7)"
-					"d = np.eye(2)"
-					"e = np.random.random((2,2))"
-					"a[np.arange(4), b]"
-					"stack = np.tile(v, (4, 1))"
-					"a = np.arange(6).reshape((3, 2))"#create and convert numpy array to multidimensional array
+					"a = np.zeros((3,2))"#array of zeros, 3 is a rows 2 is a columns
+					"b = np.ones((1,2),dtype=np.int16)"#array of one numbers 1 is a rows 2 is a columns
+					"c = np.full((4,4), 7)"#array of predefined numbers 4,4 is size 7 is a choseing number
+					"d = np.eye(4)"#Create a 4X4 identity matrix
+					"e = np.random.random((4,2))"#create array with random numbers 4 is a rows 2 is a columns
+					"f = np.arange(10,20,2)"#create an array spaced by numbers 2 from 10 to 20 
+					"g = np.tile(2, (4, 1))"#create stack of numbers 2 with 6 rows and 3 columns
+					"h = np.arange(6).reshape((3, 2))"#create and convert array to multidimensional array
+					"i = np.vstack((2,6,3,80,70))"#create vertical array with numbers 2,6,3,80,70
+					"j = np.hstack((8,9,25,16))"#create horizontal array with numbers 8, 9, 25, 16
+					IO
+						"np.save('my_array', a)"#save file with .npy format
+						"np.savez('array.npz', a, b)"#save file with .npz format
+						"np.load('my_array.npy')"#load file
+						"np.loadtxt('myfile.txt')"#load file wiith .txt format
+						"np.genfromtxt('my_file.csv', delimiter=',')"#read data from file my_file.csv
 				"import re"
 					identifiers
 						\d	#any number
