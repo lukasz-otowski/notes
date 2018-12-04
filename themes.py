@@ -3,35 +3,34 @@ science
 		biology
 			neurobiology
 				brain
-					gray_matter
-						forebrain_prosencephalon
-							cerebrum_telencephalon
-								cerebral_cortex
-									frontal_lobe
-										brocas_area
+					forebrain_prosencephalon
+						cerebrum_telencephalon
+							cerebral_cortex
+								frontal_lobe
+									brocas_area
+										spech
+								parietal_lobe
+								temporal_lobe
+									hippocampus
+										limbic_system
+										memory
+											acquisition
+											storage
+										damage
+											depression
+											stress
+											epilepsy
+											alzheimer
+									superior_temporal_lobe
+										wernickes_area
 											spech
-									parietal_lobe
-									temporal_lobe
-										hippocampus
-											limbic_system
-											memory
-												acquisition
-												storage
-											damage
-												depression
-												stress
-												epilepsy
-												alzheimer
-										superior_temporal_lobe
-											wernickes_area
-												spech
-									occipital_lobe
-							diencephalon
-								epithalamus
-								thalamus
-								subthalamus
-								metathalamus
-								hypothalamus 
+								occipital_lobe
+						diencephalon
+							epithalamus
+							thalamus
+							subthalamus
+							metathalamus
+							hypothalamus 
 					midbrain_mesencephalon
 						tectum
 							auditory_reflexes
@@ -1695,20 +1694,32 @@ software
 		linux
 			core
 				monolitic
-				directory
-					/dev
-					/proc
-					/etc
-					/sbin
-					/bin
-					/lib
-					/mnt
-					/usr
-					/var
-					/home
-					/tmp
 				module
 				library
+			file_system
+				bin
+				opt
+				boot
+				root
+				dev
+				sbin
+				et c
+				srv
+				home
+				tmp
+				lib
+				usr
+					bin
+					include
+					lib
+					sbin
+				media
+				var
+					cache
+					log
+					spool
+					tmp
+				mnt
 			ubuntu
 			debian
 			mint
