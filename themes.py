@@ -1725,6 +1725,27 @@ software
 			mint
 	console
 		cmder
+malware
+	worm
+	exploit
+	dialer
+	sql_url_injections
+	viruses
+		boot_sector_viruses
+		parasitic
+		multi_part_viruses
+		accompanying_viruses
+		macro_viruses
+	trojan
+		wabbity_fork_bomb
+		backdoor
+		rootkit
+		spyware
+			scumware
+			adware
+			hijacker_bho
+			keylogger
+			stealware
 electronics
 	components
 		resistor_dimmer
